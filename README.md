@@ -8,7 +8,7 @@ The dataset is composed by a total of 654 abstracts, which were collected from t
 - Results
 - Conclusions
 
-All the abstracts are from the Computer Science field (hence the name CS Abstracts). The following table details composition of the dataset, with respective numbers of abstracts and sentences splitted by training set, validation set and test set:
+All the abstracts are from the Computer Science field (hence the name CS Abstracts). The following table details the composition of the dataset, with respective numbers of abstracts and sentences splitted by training set, validation set and test set:
 
 |            | Training set | Validation set | Test set |
 |------------|--------------|----------------|----------|
