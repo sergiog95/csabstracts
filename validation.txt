@@ -1,0 +1,824 @@
+1	BACKGROUND	Use of social network is the basic functionality of today's life.
+2	BACKGROUND	With the advent of more and more online social media, the information available and its utilization have come under the threat of several anomalies.
+3	BACKGROUND	Anomalies are the major cause of online frauds which allow information access by unauthorized users as well as information forging.
+4	BACKGROUND	One of the anomalies that act as a silent attacker is the horizontal anomaly.
+5	BACKGROUND	These are the anomalies caused by a user because of his/her variable behaviour towards different sources.
+6	BACKGROUND	Horizontal anomalies are difficult to detect and hazardous for any network.
+7	OBJECTIVE	In this paper, a self-healing neuro-fuzzy approach (NHAD) is used for the detection, recovery, and removal of horizontal anomalies efficiently and accurately.
+8	METHODS	The proposed approach operates over the five paradigms, namely, missing links, reputation gain, significant difference, trust properties, and trust score.
+9	METHODS	The proposed approach is evaluated with three datasets: DARPA'98 benchmark dataset, synthetic dataset, and real-time traffic.
+10	RESULTS	Results show that the accuracy of the proposed NHAD model for 10% to 30% anomalies in synthetic dataset ranges between 98.08% and 99.88%.
+11	RESULTS	The evaluation over DARPA'98 dataset demonstrates that the proposed approach is better than the existing solutions as it provides 99.97% detection rate for anomalous class.
+12	CONCLUSIONS	For real-time traffic, the proposed NHAD model operates with an average accuracy of 99.42% at 99.90% detection rate.
+1	BACKGROUND	Social media is becoming an increasingly important data source for learning about and tracking breaking news.
+2	BACKGROUND	This is possible thanks to mobile devices connected to the Internet, which allow anyone to post updates from anywhere, leading in turn to a growing presence of citizen journalism.
+3	BACKGROUND	Consequently, social media has become a go-to resource for journalists during newsgathering.
+4	BACKGROUND	Use of social media for newsgathering is however challenging, and suitable tools are needed in order to facilitate access to useful information for reporting.
+5	OBJECTIVE	In this paper, we provide an overview of research in data mining and natural language processing for mining social media for newsgathering.
+6	METHODS	We discuss seven different tasks that researchers have worked on to mitigate the challenges inherent to social media newsgathering: event detection, summarisation, news recommenders, content verification, finding information sources, development of newsgathering dashboards and other tasks.
+7	CONCLUSIONS	We outline the progress made so far in the field, summarise the current challenges as well as discuss future directions in the use of computational journalism to assist with social media newsgathering.
+8	CONCLUSIONS	This survey paper is relevant to computer scientists researching news in social media as well as for interdisciplinary researchers interested in the intersection of computer science and journalism.
+1	BACKGROUND	Cybercriminals abuse Online Social Networks (OSNs) to lure victims into a variety of spam.
+2	BACKGROUND	Among different spam types, a less explored area is OSN abuse that leverages the telephony channel to defraud users.
+3	BACKGROUND	Phone numbers are advertized via OSNs, and users are tricked into calling these numbers.
+4	BACKGROUND	To expand the reach of such scam / spam campaigns, phone numbers are advertised across multiple platforms like Facebook, Twitter, GooglePlus, Flickr, and YouTube.
+5	OBJECTIVE	In this paper, we present the first data-driven characterization of cross-platform campaigns that use multiple OSN platforms to reach their victims and use phone numbers for monetization.
+6	METHODS	We collect 23M posts containing 1.8M unique phone numbers from Twitter, Facebook, GooglePlus, Youtube, and Flickr over a period of six months.
+7	METHODS	Clustering these posts helps us identify 202 campaigns operating across the globe with Indonesia, United States, India, and United Arab Emirates being the most prominent originators.
+8	RESULTS	We find that even though Indonesian campaigns generate highest volume (3.2M posts), only 1.6% of the accounts propagating Indonesian campaigns have been suspended so far.
+9	RESULTS	By examining campaigns running across multiple OSNs, we discover that Twitter detects and suspends 93% more accounts than Facebook.
+10	CONCLUSIONS	Therefore, sharing intelligence about abuse-related user accounts across OSNs can aid in spam detection.
+11	CONCLUSIONS	According to our dataset, around 35K victims and 8.8M USD could have been saved if intelligence was shared across the OSNs.
+12	CONCLUSIONS	By analyzing phone number based spam campaigns running on OSNs, we highlight the unexplored variety of phone-based attacks surfacing on OSNs.
+1	BACKGROUND	Steganography aims to conceal the very fact that the communication takes place, by embedding a message into a digit object such as image without introducing noticeable artifacts.
+2	BACKGROUND	A number of steganographic systems have been developed in past years, most of which, however, are confined to the laboratory conditions where the real-world use of steganography are rarely concerned.
+3	OBJECTIVE	In this paper, we introduce an alternative perspective to steganography.
+4	METHODS	A graph-theoretic model to steganography on social networks is presented to analyze real-world steganographic scenarios.
+5	METHODS	In the graph, steganographic participants are corresponding to the vertices with meaningless unique identifiers.
+6	METHODS	Each edge allows the two vertices to communicate with each other by any steganographic algorithm.
+7	METHODS	Meanwhile, the edges are associated with weights to quantize the corresponding communication risk (or say cost).
+8	METHODS	The optimization task is to minimize the overall risk, which is modeled as additive over the social network.
+9	METHODS	We analyze different scenarios on a social network, and provide the suited solutions to the corresponding optimization tasks.
+10	RESULTS	We prove that a multiplicative probabilistic graph is equivalent to an additive weighted graph.
+11	CONCLUSIONS	From the viewpoint of an attacker, he may hope to detect suspicious communication channels, the data encoder(s) and the data decoder(s).
+12	CONCLUSIONS	We present limited detection analysis to steganographic communication on a network.
+1	BACKGROUND	Chatbot has become an important solution to rapidly increasing customer care demands on social media in recent years.
+2	BACKGROUND	However, current work on chatbot for customer care ignores a key to impact user experience - tones.
+3	OBJECTIVE	In this work, we create a novel tone-aware chatbot that generates toned responses to user requests on social media.
+4	METHODS	We first conduct a formative research, in which the effects of tones are studied.
+5	RESULTS	Significant and various influences of different tones on user experience are uncovered in the study.
+6	METHODS	With the knowledge of effects of tones, we design a deep learning based chatbot that takes tone information into account.
+7	METHODS	We train our system on over 1.5 million real customer care conversations collected from Twitter.
+8	RESULTS	The evaluation reveals that our tone-aware chatbot generates as appropriate responses to user requests as human agents.
+9	CONCLUSIONS	More importantly, our chatbot is perceived to be even more empathetic than human agents.
+1	METHODS	Our work considers leveraging crowd signals for detecting fake news and is motivated by tools recently introduced by Facebook that enable users to flag fake news.
+2	OBJECTIVE	By aggregating users' flags, our goal is to select a small subset of news every day, send them to an expert (e.g., via a third-party fact-checking organization), and stop the spread of news identified as fake by an expert.
+3	OBJECTIVE	The main objective of our work is to minimize the spread of misinformation by stopping the propagation of fake news in the network.
+4	OBJECTIVE	It is especially challenging to achieve this objective as it requires detecting fake news with high-confidence as quickly as possible.
+5	RESULTS	We show that in order to leverage users' flags efficiently, it is crucial to learn about users' flagging accuracy.
+6	RESULTS	We develop a novel algorithm, DETECTIVE, that performs Bayesian inference for detecting fake news and jointly learns about users' flagging accuracy over time.
+7	METHODS	Our algorithm employs posterior sampling to actively trade off exploitation (selecting news that maximize the objective value at a given epoch) and exploration (selecting news that maximize the value of information towards learning about users' flagging accuracy).
+8	RESULTS	We demonstrate the effectiveness of our approach via extensive experiments and show the power of leveraging community signals for fake news detection.
+1	BACKGROUND	[Background]Discovering key nodes plays a significant role in Social Network Analysis(SNA).
+2	BACKGROUND	Effective and accurate mining of key nodes promotes more successful applications in fields like advertisement and recommendation.
+3	METHODS	[Methods] With focus on the temporal and categorical property of users' actions - when did they re-tweet or reply a message, as well as their social intimacy measured by structural embeddings, we designed a more sensitive PageRank-like algorithm to accommodate the growing and changing social network in the pursue of mining key nodes.
+4	RESULTS	[Results] Compared with our baseline PageRank algorithm, key nodes selected by our ranking algorithm noticeably perform better in the SIR disease simulations with SNAP Higgs dataset.
+5	CONCLUSIONS	[Conclusion] These results contributed to a better understanding of disseminations of social events over the network.
+1	BACKGROUND	Echo chambers, i.e., situations where one is exposed only to opinions that agree with their own, are an increasing concern for the political discourse in many democratic countries.
+2	OBJECTIVE	This paper studies the phenomenon of political echo chambers on social media.
+3	METHODS	We identify the two components in the phenomenon: the opinion that is shared ('echo'), and the place that allows its exposure ('chamber' --- the social network), and examine closely at how these two components interact.
+4	METHODS	We define a production and consumption measure for social-media users, which captures the political leaning of the content shared and received by them.
+5	METHODS	By comparing the two, we find that Twitter users are, to a large degree, exposed to political opinions that agree with their own.
+6	METHODS	We also find that users who try to bridge the echo chambers, by sharing content with diverse leaning, have to pay a 'price of bipartisanship' in terms of their network centrality and content appreciation.
+7	METHODS	In addition, we study the role of 'gatekeepers', users who consume content with diverse leaning but produce partisan content (with a single-sided leaning), in the formation of echo chambers.
+8	RESULTS	Finally, we apply these findings to the task of predicting partisans and gatekeepers from social and content features.
+9	CONCLUSIONS	While partisan users turn out relatively easy to identify, gatekeepers prove to be more challenging.
+1	BACKGROUND	Understanding the importance of links in transmitting information in a network can provide ways to hinder or postpone ongoing dynamical phenomena like the spreading of epidemic or the diffusion of information.
+2	OBJECTIVE	In this work, we propose a new measure based on stochastic diffusion processes, the \textit{transmission centrality}, that captures the importance of links by estimating the average number of nodes to whom they transfer information during a global spreading diffusion process.
+3	METHODS	We propose a simple algorithmic solution to compute transmission centrality and to approximate it in very large networks at low computational cost.
+4	RESULTS	Finally we apply transmission centrality in the identification of weak ties in three large empirical social networks, showing that this metric outperforms other centrality measures in identifying links that drive spreading processes in a social network.
+1	BACKGROUND	Social media provides political news and information for both active duty military personnel and veterans.
+2	METHODS	We analyze the subgroups of Twitter and Facebook users who spend time consuming junk news from websites that target US military personnel and veterans with conspiracy theories, misinformation, and other forms of junk news about military affairs and national security issues.
+3	RESULTS	(1) Over Twitter we find that there are significant and persistent interactions between current and former military personnel and a broad network of extremist, Russia-focused, and international conspiracy subgroups.
+4	RESULTS	(2) Over Facebook, we find significant and persistent interactions between public pages for military and veterans and subgroups dedicated to political conspiracy, and both sides of the political spectrum.
+5	RESULTS	(3) Over Facebook, the users who are most interested in conspiracy theories and the political right seem to be distributing the most junk news, whereas users who are either in the military or are veterans are among the most sophisticated news consumers, and share very little junk news through the network.
+1	BACKGROUND	As people increasingly use social media as a source for news consumption, its unmoderated nature enables the diffusion of hoaxes, which in turn jeopardises the credibility of information gathered from social media platforms.
+2	OBJECTIVE	To mitigate this problem, we study the development of a hoax detection system that can distinguish true and false reports early on.
+3	METHODS	We introduce a semi-automated approach that leverages the Wikidata knowledge base to build large-scale datasets for veracity classification, which enables us to create a dataset with 4,007 reports including over 13 million tweets, 15% of which are fake.
+4	RESULTS	We describe a method for learning class-specific word representations using word embeddings, which we call multiw2v.
+5	CONCLUSIONS	Our approach achieves competitive results with F1 scores over 72% within 10 minutes of the first tweet being posted, outperforming other baselines.
+6	CONCLUSIONS	Our dataset represents a realistic scenario with a real distribution of true and false stories, which we release for further use as a benchmark in future research.
+1	BACKGROUND	"The Blue Whale Challenge is a series of self-harm causing tasks that are propagated via online social media under the disguise of a ""game."""
+2	BACKGROUND	The list of tasks must be completed in a duration of 50 days and they cause both physical and mental harm to the player.
+3	BACKGROUND	The final task is to commit suicide.
+4	BACKGROUND	"The game is supposed to be administered by people called ""curators"" who incite others to cause self-mutilation and commit suicide."
+5	BACKGROUND	The curators and potential players are known to contact each other on social networking websites and the conversations between them are suspected to take place mainly via direct messages which are difficult to track.
+6	BACKGROUND	Though, in order to find curators, the players make public posts containing certain hashtags/keywords to catch their attention.
+7	BACKGROUND	Even though a lot of these social networks have moderated posts talking about the game, yet some posts manage to pass their filters.
+8	OBJECTIVE	Our research focuses on (1) understanding the social media spread of the challenge, (2) spotting the behaviour of the people taking interest in Blue Whale challenge and, (3) analysing demographics of the users who may be involved in playing the game.
+1	BACKGROUND	Recent works have shown that social media platforms are able to influence the trends of stock price movements.
+2	BACKGROUND	However, existing works have majorly focused on the U.S. stock market and lacked attention to certain emerging countries such as China, where retail investors dominate the market.
+3	BACKGROUND	In this regard, as retail investors are prone to be influenced by news or other social media, psychological and behavioral features extracted from social media platforms are thought to well predict stock price movements in the China's market.
+4	BACKGROUND	Recent advances in the investor social network in China enables the extraction of such features from web-scale data.
+5	RESULTS	In this paper, on the basis of tweets from Xueqiu, a popular Chinese Twitter-like social platform specialized for investors, we analyze features with regard to collective sentiment and perception on stock relatedness and predict stock price movements by employing nonlinear models.
+6	RESULTS	The features of interest prove to be effective in our experiments.
+1	OBJECTIVE	We study the min-cost seed selection problem in online social networks, where the goal is to select a set of seed nodes with the minimum total cost such that the expected number of influenced nodes in the network exceeds a predefined threshold.
+2	METHODS	We propose several algorithms that outperform the previous studies both on the theoretical approximation ratios and on the experimental performance.
+3	METHODS	Under the case where the nodes have heterogeneous costs, our algorithms are the first bi- criteria approximation algorithms with polynomial running time and provable logarithmic performance bounds using a general contagion model.
+4	METHODS	Under the case where the users have uniform costs, our algorithms achieve logarithmic approximation ratio and provable time complexity which is smaller than that of existing algorithms in orders of magnitude.
+5	METHODS	We conduct extensive experiments using real social networks.
+6	CONCLUSIONS	The experimental results show that, our algorithms significantly outperform the existing algorithms both on the total cost and on the running time, and also scale well to billion-scale networks.
+1	BACKGROUND	Urbanization represents a huge opportunity for computer applications enabling cities to be managed more efficiently while, at the same time, improving the life quality of their citizens.
+2	BACKGROUND	One of the potential application of this kind of systems is a bottom-up evaluation of the level of walkability of the city (namely the level of usefulness, comfort, safety and attractiveness of an urban area for walking).
+3	BACKGROUND	This is based on the usage of data from social media for the computation of structured indicators describing the actual usage of areas by pedestrians.
+4	OBJECTIVE	This paper will present an experimentation of analysis of data about the city of Milano (Italy) acquired from Flickr and Foursquare.
+5	BACKGROUND	The over 500 thousand points, which represent the photos and the POIs collected from the above mentioned social meda, were clustered through an iterative approach based on the DBSCAN algorithm, in order to achieve homogeneous areas defined by the actual activity of inhabitants and tourists rather than by a top down administrative procedure and to supply useful indications on the level of walkability of the city of Milan.
+1	BACKGROUND	The evolution of social media popularity exhibits rich temporality, i.e., popularities change over time at various levels of temporal granularity.
+2	BACKGROUND	This is influenced by temporal variations of public attentions or user activities.
+3	BACKGROUND	For example, popularity patterns of street snap on Flickr are observed to depict distinctive fashion styles at specific time scales, such as season-based periodic fluctuations for Trench Coat or one-off peak in days for Evening Dress.
+4	BACKGROUND	However, this fact is often overlooked by existing research of popularity modeling.
+5	OBJECTIVE	We present the first study to incorporate multiple time-scale dynamics into predicting online popularity.
+6	METHODS	We propose a novel computational framework in the paper, named Multi-scale Temporalization, for estimating popularity based on multi-scale decomposition and structural reconstruction in a tensor space of user, post, and time by joint low-rank constraints.
+7	METHODS	By considering the noise caused by context inconsistency, we design a data rearrangement step based on context aggregation as preprocessing to enhance contextual relevance of neighboring data in the tensor space.
+8	RESULTS	As a result, our approach can leverage multiple levels of temporal characteristics and reduce the noise of data decomposition to improve modeling effectiveness.
+9	RESULTS	We evaluate our approach on two large-scale Flickr image datasets with over 1.8 million photos in total, for the task of popularity prediction.
+10	CONCLUSIONS	The results show that our approach significantly outperforms state-of-the-art popularity prediction techniques, with a relative improvement of 10.9%-47.5% in terms of prediction accuracy.
+1	BACKGROUND	The pervasive use of social media has grown to over two billion users to date, and is commonly utilized as a means to share information and shape world events.
+2	BACKGROUND	Evidence suggests that passive social media usage (i.e., viewing without taking action) has an impact on the user's perspective.
+3	BACKGROUND	This empirical influence over perspective could have significant impact on social events.
+4	OBJECTIVE	Therefore, it is important to understand how social media contributes to the formation of an individual's perspective.
+5	METHODS	A set of experimental tasks were designed to investigate empirically derived thresholds for opinion formation as a result of passive interactions with different social media data types (i.e., videos, images, and messages).
+6	METHODS	With a better understanding of how humans passively interact with social media information, a paradigm can be developed that allows the exploitation of this interaction and plays a significant role in future military plans and operations.
+1	BACKGROUND	Popular User-Review Social Networks (URSNs)---such as Dianping, Yelp, and Amazon---are often the targets of reputation attacks in which fake reviews are posted in order to boost or diminish the ratings of listed products and services.
+2	BACKGROUND	These attacks often emanate from a collection of accounts, called Sybils, which are collectively managed by a group of real users.
+3	BACKGROUND	A new advanced scheme, which we term elite Sybil attacks, recruits organically highly-rated accounts to generate seemingly-trustworthy and realistic-looking reviews.
+4	BACKGROUND	These elite Sybil accounts taken together form a large-scale sparsely-knit Sybil network for which existing Sybil fake-review defense systems are unlikely to succeed.
+5	OBJECTIVE	In this paper, we conduct the first study to define, characterize, and detect elite Sybil attacks.
+6	CONCLUSIONS	We show that contemporary elite Sybil attacks have a hybrid architecture, with the first tier recruiting elite Sybil workers and distributing tasks by Sybil organizers, and with the second tier posting fake reviews for profit by elite Sybil workers.
+7	CONCLUSIONS	We design ElsieDet, a three-stage Sybil detection scheme, which first separates out suspicious groups of users, then identifies the campaign windows, and finally identifies elite Sybil users participating in the campaigns.
+8	CONCLUSIONS	We perform a large-scale empirical study on ten million reviews from Dianping, by far the most popular URSN service in China.
+9	CONCLUSIONS	Our results show that reviews from elite Sybil users are more spread out temporally, craft more convincing reviews, and have higher filter bypass rates.
+10	CONCLUSIONS	We also measure the impact of Sybil campaigns on various industries (such as cinemas, hotels, restaurants) as well as chain stores, and demonstrate that monitoring elite Sybil users over time can provide valuable early alerts against Sybil campaigns.
+1	BACKGROUND	Content popularity prediction has been extensively studied due to its importance and interest for both users and hosts of social media sites like Facebook, Instagram, Twitter, and Pinterest.
+2	BACKGROUND	However, existing work mainly focuses on modeling popularity using a single metric such as the total number of likes or shares.
+3	OBJECTIVE	In this work, we propose Diffusion-LSTM, a memory-based deep recurrent network that learns to recursively predict the entire diffusion path of an image through a social network.
+4	METHODS	By combining user social features and image features, and encoding the diffusion path taken thus far with an explicit memory cell, our model predicts the diffusion path of an image more accurately compared to alternate baselines that either encode only image or social features, or lack memory.
+5	METHODS	By mapping individual users to user prototypes, our model can generalize to new users not seen during training.
+6	METHODS	Finally, we demonstrate our model's capability of generating diffusion trees, and show that the generated trees closely resemble ground-truth trees.
+1	OBJECTIVE	This paper investigates on the effect on collective opinions of filtering algorithms managed by social network platforms.
+2	METHODS	For this purpose, a stochastic multi-agent model for opinion dynamics that explicitly accounts for a centralized tuning of the strength of interaction between individuals within a social network is proposed.
+3	RESULTS	The evolution of each individual opinion is described by a Markov chain, whose transition rates are affected through influence parameters, by the opinions of the neighbors.
+4	METHODS	The properties of this model are studied in a general setting as well as in interesting special cases.
+5	RESULTS	A general result is that the overall model of the social network behaves like a high-dimensional Markov chain, which is viable to Monte Carlo simulation.
+6	RESULTS	Under the assumption of identical agents and unbiased influence, the model can be marginalized, thus implying, among other things, that the influence intensity affects the variance, but not the expectation, of the number of individuals sharing a certain opinion.
+7	RESULTS	Moreover, a detailed analysis is carried out in the case of the so-called Peer Assembly, which describes the evolution of binary opinions among identical agents whose interaction of graph is completely connected.
+8	CONCLUSIONS	It is shown that the Peer Assembly can be lumped into a birth-death chain that can be given a complete analytical characterization.
+9	CONCLUSIONS	Both analytical results and simulation experiments are used to highlight the emergence of particular collective behaviours, depending on the interaction strength parameters.
+1	BACKGROUND	Given a large population, it is an intensive task to gather individual preferences over a set of alternatives and arrive at an aggregate or collective preference of the population.
+2	CONCLUSIONS	We show that social network underlying the population can be harnessed to accomplish this task effectively, by sampling preferences of a small subset of representative nodes.
+3	METHODS	We first develop a Facebook app to create a dataset consisting of preferences of nodes and the underlying social network, using which, we develop models that capture how preferences are distributed among nodes in a typical social network.
+4	OBJECTIVE	We hence propose an appropriate objective function for the problem of selecting best representative nodes.
+5	METHODS	We devise two algorithms, namely, Greedy-min which provides a performance guarantee for a wide class of popular voting rules, and Greedy-sum which exhibits excellent performance in practice.
+6	METHODS	We compare the performance of these proposed algorithms against random-polling and popular centrality measures, and provide a detailed analysis of the obtained results.
+7	RESULTS	Our analysis suggests that selecting representatives using social network information is advantageous for aggregating preferences related to personal topics (e.g., lifestyle), while random polling with a reasonable sample size is good enough for aggregating preferences related to social topics (e.g., government policies).
+1	BACKGROUND	Social networks allow rapid spread of ideas and innovations while the negative information can also propagate widely.
+2	BACKGROUND	When the cascades with different opinions reaching the same user, the cascade arriving first is the most likely to be taken by the user.
+3	BACKGROUND	Therefore, once misinformation or rumor is detected, a natural containment method is to introduce a positive cascade competing against the rumor.
+4	BACKGROUND	Given a budget $k$, the rumor blocking problem asks for $k$ seed users to trigger the spread of the positive cascade such that the number of the users who are not influenced by rumor can be maximized.
+5	BACKGROUND	The prior works have shown that the rumor blocking problem can be approximated within a factor of $(1-1/e-\delta)$ by a classic greedy algorithm combined with Monte Carlo simulation with the running time of $O(\frac{k^3mn\ln n}{\delta^2})$, where $n$ and $m$ are the number of users and edges, respectively.
+6	BACKGROUND	Unfortunately, the Monte-Carlo-simulation-based methods are extremely time consuming and the existing algorithms either trade performance guarantees for practical efficiency or vice versa.
+7	OBJECTIVE	In this paper, we present a randomized algorithm which runs in $O(\frac{km\ln n}{\delta^2})$ expected time and provides a $(1-1/e-\delta)$-approximation with a high probability.
+8	CONCLUSIONS	The experimentally results on both the real-world and synthetic social networks have shown that the proposed randomized rumor blocking algorithm is much more efficient than the state-of-the-art method and it is able to find the seed nodes which are effective in limiting the spread of rumor.
+1	BACKGROUND	Social media data provides propitious opportunities for public health research.
+2	BACKGROUND	However, studies suggest that disparities may exist in the representation of certain populations (e.g., people of lower socioeconomic status).
+3	BACKGROUND	To quantify and address these disparities in population representation, we need demographic information, which is usually missing from most social media platforms.
+4	OBJECTIVE	Here, we propose an ensemble approach for inferring demographics from social media data.
+5	METHODS	Several methods have been proposed for inferring demographic attributes such as, age, gender and race/ethnicity.
+6	METHODS	However, most of these methods require large volumes of data, which makes their application to large scale studies challenging.
+7	RESULTS	We develop a scalable approach that relies only on user names to predict gender.
+8	RESULTS	We develop three separate classifiers trained on data containing the gender labels of 7,953 Twitter users from Kaggle.com.
+9	METHODS	Next, we combine predictions from the individual classifiers using a stacked generalization technique and apply the ensemble classifier to a dataset of 36,085 geotagged foodborne illness related tweets from the United States.
+10	RESULTS	Our ensemble approach achieves an accuracy, precision, recall, and F1 score of 0.828, 0.851, 0.852 and 0.837, respectively, higher than the individual machine learning approaches.
+11	RESULTS	The ensemble classifier also covers any user with an alphanumeric name, while the data matching approach, which achieves an accuracy of 0.917, only covers 67% of users.
+12	RESULTS	Application of our method to reports of foodborne illness in the United States highlights disparities in tweeting by gender and shows that counties with a high volume of foodborne-illness related tweets are heavily overrepresented by female Twitter users.
+1	BACKGROUND	Online argumentative dialog is a rich source of information on popular beliefs and opinions that could be useful to companies as well as governmental or public policy agencies.
+2	BACKGROUND	Compact, easy to read, summaries of these dialogues would thus be highly valuable.
+3	BACKGROUND	A priori, it is not even clear what form such a summary should take.
+4	BACKGROUND	Previous work on summarization has primarily focused on summarizing written texts, where the notion of an abstract of the text is well defined.
+5	METHODS	We collect gold standard training data consisting of five human summaries for each of 161 dialogues on the topics of Gay Marriage, Gun Control and Abortion.
+6	OBJECTIVE	We present several different computational models aimed at identifying segments of the dialogues whose content should be used for the summary, using linguistic features and Word2vec features with both SVMs and Bidirectional LSTMs.
+7	RESULTS	We show that we can identify the most important arguments by using the dialog context with a best F-measure of 0.74 for gun control, 0.71 for gay marriage, and 0.67 for abortion.
+1	BACKGROUND	Recently, encoder-decoder models are widely used in social media text summarization.
+2	CONCLUSIONS	However, these models sometimes select noise words in irrelevant sentences as part of a summary by error, thus declining the performance.
+3	OBJECTIVE	In order to inhibit irrelevant sentences and focus on key information, we propose an effective approach by learning sentence weight distribution.
+4	OBJECTIVE	In our model, we build a multi-layer perceptron to predict sentence weights.
+5	METHODS	During training, we use the ROUGE score as an alternative to the estimated sentence weight, and try to minimize the gap between estimated weights and predicted weights.
+6	CONCLUSIONS	In this way, we encourage our model to focus on the key sentences, which have high relevance with the summary.
+7	RESULTS	Experimental results show that our approach outperforms baselines on a large-scale social media corpus.
+1	BACKGROUND	Distributed word representations have been shown to be very useful in various natural language processing (NLP) application tasks.
+2	BACKGROUND	These word vectors learned from huge corpora very often carry both semantic and syntactic information of words.
+3	BACKGROUND	However, it is well known that each individual user has his own language patterns because of different factors such as interested topics, friend groups, social activities, wording habits, etc., which may imply some kind of personalized semantics.
+4	BACKGROUND	With such personalized semantics, the same word may imply slightly differently for different users.
+5	BACKGROUND	"For example, the word ""Cappuccino"" may imply ""Leisure"", ""Joy"", ""Excellent"" for a user enjoying coffee, by only a kind of drink for someone else."
+6	BACKGROUND	Such personalized semantics of course cannot be carried by the standard universal word vectors trained with huge corpora produced by many people.
+7	OBJECTIVE	In this paper, we propose a framework to train different personalized word vectors for different users based on the very successful continuous skip-gram model using the social network data posted by many individual users.
+8	METHODS	In this framework, universal background word vectors are first learned from the background corpora, and then adapted by the personalized corpus for each individual user to learn the personalized word vectors.
+9	METHODS	We use two application tasks to evaluate the quality of the personalized word vectors obtained in this way, the user prediction task and the sentence completion task.
+10	CONCLUSIONS	These personalized word vectors were shown to carry some personalized semantics and offer improved performance on these two evaluation tasks.
+1	BACKGROUND	So-called 'social bots' have garnered a lot of attention lately.
+2	BACKGROUND	Previous research showed that they attempted to influence political events such as the Brexit referendum and the US presidential elections.
+3	BACKGROUND	It remains, however, somewhat unclear what exactly can be understood by the term 'social bot'.
+4	OBJECTIVE	This paper addresses the need to better understand the intentions of bots on social media and to develop a shared understanding of how 'social' bots differ from other types of bots.
+5	METHODS	We thus describe a systematic review of publications that researched bot accounts on social media.
+6	METHODS	Based on the results of this literature review, we propose a scheme for categorising bot accounts on social media sites.
+7	METHODS	Our scheme groups bot accounts by two dimensions - Imitation of human behaviour and Intent.
+1	BACKGROUND	People nowadays share large parts of their personal lives through social media.
+2	BACKGROUND	Being able to automatically recognise people in personal photos may greatly enhance user convenience by easing photo album organisation.
+3	BACKGROUND	For human identification task, however, traditional focus of computer vision has been face recognition and pedestrian re-identification.
+4	BACKGROUND	Person recognition in social media photos sets new challenges for computer vision, including non-cooperative subjects (e.g. backward viewpoints, unusual poses) and great changes in appearance.
+5	METHODS	To tackle this problem, we build a simple person recognition framework that leverages convnet features from multiple image regions (head, body, etc.).
+6	OBJECTIVE	We propose new recognition scenarios that focus on the time and appearance gap between training and testing samples.
+7	RESULTS	We present an in-depth analysis of the importance of different features according to time and viewpoint generalisability.
+8	CONCLUSIONS	In the process, we verify that our simple approach achieves the state of the art result on the PIPA benchmark, arguably the largest social media based benchmark for person recognition to date with diverse poses, viewpoints, social groups, and events.
+9	METHODS	Compared the conference version of the paper, this paper additionally presents (1) analysis of a face recogniser (DeepID2+), (2) new method naeil2 that combines the conference version method naeil and DeepID2+ to achieve state of the art results even compared to post-conference works, (3) discussion of related work since the conference version, (4) additional analysis including the head viewpoint-wise breakdown of performance, and (5) results on the open-world setup.
+1	BACKGROUND	With the rise of Social Media, people obtain and share information almost instantly on a 24/7 basis.
+2	BACKGROUND	Many research areas have tried to gain valuable insights from these large volumes of freely available user generated content.
+3	METHODS	With the goal of extracting knowledge from social media streams that might be useful in the context of intelligent transportation systems and smart cities, we designed and developed a framework that provides functionalities for parallel collection of geo-located tweets from multiple pre-defined bounding boxes (cities or regions), including filtering of non-complying tweets, text pre-processing for Portuguese and English language, topic modeling, and transportation-specific text classifiers, as well as, aggregation and data visualization.
+4	RESULTS	We performed an exploratory data analysis of geo-located tweets in 5 different cities: Rio de Janeiro, S\~ao Paulo, New York City, London and Melbourne, comprising a total of more than 43 million tweets in a period of 3 months.
+5	RESULTS	Furthermore, we performed a large scale topic modelling comparison between Rio de Janeiro and S\~ao Paulo.
+6	RESULTS	Interestingly, most of the topics are shared between both cities which despite being in the same country are considered very different regarding population, economy and lifestyle.
+7	RESULTS	We take advantage of recent developments in word embeddings and train such representations from the collections of geo-located tweets.
+8	RESULTS	We then use a combination of bag-of-embeddings and traditional bag-of-words to train travel-related classifiers in both Portuguese and English to filter travel-related content from non-related.
+9	RESULTS	We created specific gold-standard data to perform empirical evaluation of the resulting classifiers.
+10	CONCLUSIONS	Results are in line with research work in other application areas by showing the robustness of using word embeddings to learn word similarities that bag-of-words is not able to capture.
+1	BACKGROUND	Online social networks (OSNs) have become the main medium for connecting people, sharing knowledge and information, and for communication.
+2	BACKGROUND	The social connections between people using these OSNs are formed as virtual links (e.g., friendship and following connections) that connect people.
+3	BACKGROUND	These links are the heart of today's OSNs as they facilitate all of the activities that the members of a social network can do.
+4	BACKGROUND	However, many of these networks suffer from noisy links, i.e., links that do not reflect a real relationship or links that have a low intensity, that change the structure of the network and prevent accurate analysis of these networks.
+5	BACKGROUND	Hence, a process for assessing and ranking the links in a social network is crucial in order to sustain a healthy and real network.
+6	BACKGROUND	Here, we define link assessment as the process of identifying noisy and non-noisy links in a network.
+7	OBJECTIVE	In this paper, we address the problem of link assessment and link ranking in social networks using external interaction networks.
+8	OBJECTIVE	In addition to a friendship social network, additional exogenous interaction networks are utilized to make the assessment process more meaningful.
+9	METHODS	We employed machine learning classifiers for assessing and ranking the links in the social network of interest using the data from exogenous interaction networks.
+10	METHODS	The method was tested with two different datasets, each containing the social network of interest, with the ground truth, along with the exogenous interaction networks.
+11	RESULTS	The results show that it is possible to effectively assess the links of a social network using only the structure of a single network of the exogenous interaction networks, and also using the structure of the whole set of exogenous interaction networks.
+12	CONCLUSIONS	The experiments showed that some classifiers do better than others regarding both link classification and link ranking.
+1	BACKGROUND	A crucial privacy-driven issue nowadays is re-identifying anonymized social networks by mapping them to correlated cross-domain auxiliary networks.
+2	BACKGROUND	Prior works are typically based on modeling social networks as random graphs representing users and their relations, and subsequently quantify the quality of mappings through cost functions that are proposed without sufficient rationale.
+3	BACKGROUND	Also, it remains unknown how to algorithmically meet the demand of such quantifications, i.e., to find the minimizer of the cost functions.
+4	OBJECTIVE	We address those concerns in a more realistic social network modeling parameterized by community structures that can be leveraged as side information for de-anonymization.
+5	CONCLUSIONS	By Maximum A Posteriori (MAP) estimation, our first contribution is new and well justified cost functions, which, when minimized, enjoy superiority to previous ones in finding the correct mapping with the highest probability.
+6	METHODS	The feasibility of the cost functions is then for the first time algorithmically characterized.
+7	RESULTS	While proving the general multiplicative inapproximability, we are able to propose two algorithms, which, respectively, enjoy an \epsilon-additive approximation and a conditional optimality in carrying out successful user re-identification.
+8	RESULTS	Our theoretical findings are empirically validated, with a notable dataset extracted from rare true cross-domain networks that reproduce genuine social network de-anonymization.
+9	CONCLUSIONS	Both theoretical and empirical observations also manifest the importance of community information in enhancing privacy inferencing.
+1	BACKGROUND	In this paper, we describe the Lithium Natural Language Processing (NLP) system - a resource-constrained, high- throughput and language-agnostic system for information extraction from noisy user generated text on social media.
+2	BACKGROUND	Lithium NLP extracts a rich set of information including entities, topics, hashtags and sentiment from text.
+3	OBJECTIVE	We discuss several real world applications of the system currently incorporated in Lithium products.
+4	OBJECTIVE	We also compare our system with existing commercial and academic NLP systems in terms of performance, information extracted and languages supported.
+5	RESULTS	We show that Lithium NLP is at par with and in some cases, outperforms state- of-the-art commercial NLP systems.
+1	BACKGROUND	Location-based social network data offers the promise of collecting the data from a large base of users over a longer span of time at negligible cost.
+2	BACKGROUND	While several studies have applied social network data to activity and mobility analysis, a comparison with travel diaries and general statistics has been lacking.
+3	OBJECTIVE	In this paper, we analysed geo-referenced Twitter activities from a large number of users in Singapore and neighbouring countries.
+4	METHODS	By combining this data, population statistics and travel diaries and applying clustering techniques, we addressed detection of activity locations, as well as spatial separation and transitions between these locations.
+5	RESULTS	Kernel density estimation performs best to detect activity locations due to the scattered nature of the twitter data; more activity locations are detected per user than reported in the travel survey.
+6	RESULTS	The descriptive analysis shows that determining home locations is more difficult than detecting work locations for most planning zones.
+7	RESULTS	Spatial separations between detected activity locations from Twitter data - as reported in a travel survey and captured by public transport smart card data - are mostly similarly distributed, but also show relevant differences for very short and very long distances.
+8	RESULTS	This also holds for the transitions between zones.
+9	CONCLUSIONS	Whether the differences between Twitter data and other data sources stem from differences in the population sub-sample, clustering methodology, or whether social networks are being used significantly more at specific locations must be determined by further research.
+10	CONCLUSIONS	Despite these shortcomings, location-based social network data offers a promising data source for insights into activity locations and mobility patterns, especially for regions where travel survey data is not readily available.
+1	BACKGROUND	Social media (SM) data provides a vast record of humanity's everyday thoughts, feelings, and actions at a resolution previously unimaginable.
+2	BACKGROUND	Because user behavior on SM is a reflection of events in the real world, researchers have realized they can use SM in order to forecast, making predictions about the future.
+3	BACKGROUND	The advantage of SM data is its relative ease of acquisition, large quantity, and ability to capture socially relevant information, which may be difficult to gather from other data sources.
+4	BACKGROUND	Promising results exist across a wide variety of domains, but one will find little consensus regarding best practices in either methodology or evaluation.
+5	OBJECTIVE	In this systematic review, we examine relevant literature over the past decade, tabulate mixed results across a number of scientific disciplines, and identify common pitfalls and best practices.
+6	RESULTS	We find that SM forecasting is limited by data biases, noisy data, lack of generalizable results, a lack of domain-specific theory, and underlying complexity in many prediction tasks.
+7	BACKGROUND	But despite these shortcomings, recurring findings and promising results continue to galvanize researchers and demand continued investigation.
+8	OBJECTIVE	Based on the existing literature, we identify research practices which lead to success, citing specific examples in each case and making recommendations for best practices.
+9	CONCLUSIONS	These recommendations will help researchers take advantage of the exciting possibilities offered by SM platforms.
+1	BACKGROUND	Current Chinese social media text summarization models are based on an encoder-decoder framework.
+2	BACKGROUND	Although its generated summaries are similar to source texts literally, they have low semantic relevance.
+3	OBJECTIVE	In this work, our goal is to improve semantic relevance between source texts and summaries for Chinese social media summarization.
+4	OBJECTIVE	We introduce a Semantic Relevance Based neural model to encourage high semantic similarity between texts and summaries.
+5	METHODS	In our model, the source text is represented by a gated attention encoder, while the summary representation is produced by a decoder.
+6	METHODS	Besides, the similarity score between the representations is maximized during training.
+7	CONCLUSIONS	Our experiments show that the proposed model outperforms baseline systems on a social media corpus.
+1	BACKGROUND	A number of real world problems in many domains (e.g. sociology, biology, political science and communication networks) can be modeled as dynamic networks with nodes representing entities of interest and edges representing interactions among the entities at different points in time.
+2	METHODS	A common representation for such models is the snapshot model - where a network is defined at logical time-stamps.
+3	METHODS	An important problem under this model is change point detection.
+4	OBJECTIVE	In this work we devise an effective and efficient three-step-approach for detecting change points in dynamic networks under the snapshot model.
+5	METHODS	Our algorithm achieves up to 9X speedup over the state-of-the-art while improving quality on both synthetic and real world networks.
+1	BACKGROUND	Musicologists and sociologists have long been interested in patterns of music consumption and their relation to socioeconomic status.
+2	BACKGROUND	In particular, the Omnivore Thesis examines the relationship between these variables and the diversity of music a person consumes.
+3	OBJECTIVE	Using data from social media users of Last.fm and Twitter, we design and evaluate a measure that reasonably captures diversity of musical tastes.
+4	METHODS	We use that measure to explore associations between musical diversity and variables that capture socioeconomic status, demographics, and personal traits such as openness and degree of interest in music (into-ness).
+5	CONCLUSIONS	Our musical diversity measure can provide a useful means for studies of musical preferences and consumption.
+6	CONCLUSIONS	Also, our study of the Omnivore Thesis provides insights that extend previous survey and interview-based studies.
+1	BACKGROUND	Embedding network data into a low-dimensional vector space has shown promising performance for many real-world applications, such as node classification and entity retrieval.
+2	BACKGROUND	However, most existing methods focused only on leveraging network structure.
+3	BACKGROUND	For social networks, besides the network structure, there also exists rich information about social actors, such as user profiles of friendship networks and textual content of citation networks.
+4	BACKGROUND	These rich attribute information of social actors reveal the homophily effect, exerting huge impacts on the formation of social networks.
+5	OBJECTIVE	In this paper, we explore the rich evidence source of attributes in social networks to improve network embedding.
+6	OBJECTIVE	We propose a generic Social Network Embedding framework (SNE), which learns representations for social actors (i.e., nodes) by preserving both the structural proximity and attribute proximity.
+7	METHODS	While the structural proximity captures the global network structure, the attribute proximity accounts for the homophily effect.
+8	METHODS	To justify our proposal, we conduct extensive experiments on four real-world social networks.
+9	RESULTS	Compared to the state-of-the-art network embedding approaches, SNE can learn more informative representations, achieving substantial gains on the tasks of link prediction and node classification.
+10	RESULTS	Specifically, SNE significantly outperforms node2vec with an 8.2% relative improvement on the link prediction task, and a 12.7% gain on the node classification task.
+1	OBJECTIVE	We focus on named entity recognition (NER) for Chinese social media.
+2	METHODS	With massive unlabeled text and quite limited labelled corpus, we propose a semi-supervised learning model based on B-LSTM neural network.
+3	METHODS	To take advantage of traditional methods in NER such as CRF, we combine transition probability with deep learning in our model.
+4	METHODS	To bridge the gap between label accuracy and F-score of NER, we construct a model which can be directly trained on F-score.
+5	METHODS	When considering the instability of F-score driven method and meaningful information provided by label accuracy, we propose an integrated method to train on both F-score and label accuracy.
+6	CONCLUSIONS	Our integrated model yields 7.44\% improvement over previous state-of-the-art result.
+1	CONCLUSIONS	Social networks are getting closer to our real physical world.
+2	CONCLUSIONS	People share the exact location and time of their check-ins and are influenced by their friends.
+3	CONCLUSIONS	Modeling the spatio-temporal behavior of users in social networks is of great importance for predicting the future behavior of users, controlling the users' movements, and finding the latent influence network.
+4	CONCLUSIONS	It is observed that users have periodic patterns in their movements.
+5	CONCLUSIONS	Also, they are influenced by the locations that their close friends recently visited.
+6	METHODS	Leveraging these two observations, we propose a probabilistic model based on a doubly stochastic point process with a periodic decaying kernel for the time of check-ins and a time-varying multinomial distribution for the location of check-ins of users in the location-based social networks.
+7	METHODS	We learn the model parameters using an efficient EM algorithm, which distributes over the users.
+8	RESULTS	Experiments on synthetic and real data gathered from Foursquare show that the proposed inference algorithm learns the parameters efficiently and our model outperforms the other alternatives in the prediction of time and location of check-ins.
+1	OBJECTIVE	In this work, we investigate an application of a Nash equilibrium seeking algorithm in a social network.
+2	BACKGROUND	In a networked game each player (user) takes action in response to other players' actions in order to decrease (increase) his cost (profit) in the network.
+3	METHODS	We assume that the players' cost functions are not necessarily dependent on the actions of all players.
+4	METHODS	This is due to better mimicking the standard social media rules.
+5	METHODS	A communication graph is defined for the game through which players are able to share their information with only their neighbors.
+6	METHODS	We assume that the communication neighbors necessarily affect the players' cost functions while the reverse is not always true.
+7	RESULTS	In this game, the players are only aware of their own cost functions and actions.
+8	METHODS	Thus, each of them maintains an estimate of the others' actions and share it with the neighbors to update his action and estimates.
+1	BACKGROUND	Several projects have shown the feasibility to use textual social media data to track public health concerns, such as temporal influenza patterns or geographical obesity patterns.
+2	OBJECTIVE	In this paper, we look at whether geo-tagged images from Instagram also provide a viable data source.
+3	BACKGROUND	"Especially for ""lifestyle"" diseases, such as obesity, drinking or smoking, images of social gatherings could provide information that is not necessarily shared in, say, tweets."
+4	OBJECTIVE	In this study, we explore whether (i) tags provided by the users and (ii) annotations obtained via automatic image tagging are indeed valuable for studying public health.
+5	RESULTS	We find that both user-provided and machine-generated tags provide information that can be used to infer a county's health statistics.
+6	RESULTS	"Whereas for most statistics user-provided tags are better features, for predicting excessive drinking machine-generated tags such as ""liquid"" and ""glass"" yield better models."
+7	CONCLUSIONS	This hints at the potential of using machine-generated tags to study substance abuse.
+1	BACKGROUND	The search engine is tightly coupled with social networks and is primarily designed for users to acquire interested information.
+2	BACKGROUND	Specifically, the search engine assists the information dissemination for social networks, i.e., enabling users to access interested contents with keywords-searching and promoting the process of contents-transferring from the source users directly to potential interested users.
+3	BACKGROUND	Accompanying such processes, the social network evolves as new links emerge between users with common interests.
+4	BACKGROUND	"However, there is no clear understanding of such a ""chicken-and-egg"" problem, namely, new links encourage more social interactions, and vice versa."
+5	OBJECTIVE	In this paper, we aim to quantitatively characterize the social network evolution phenomenon driven by a search engine.
+6	METHODS	First, we propose a search network model for social network evolution.
+7	METHODS	Second, we adopt two performance metrics, namely, degree distribution and network diameter.
+8	RESULTS	Theoretically, we prove that the degree distribution follows an intensified power-law, and the network diameter shrinks.
+9	RESULTS	Third, we quantitatively show that the search engine accelerates the rumor propagation in social networks.
+10	METHODS	Finally, based on four real-world data sets (i.e., CDBLP, Facebook, Weibo Tweets, P2P), we verify our theoretical findings.
+11	CONCLUSIONS	Furthermore, we find that the search engine dramatically increases the speed of rumor propagation.
+1	BACKGROUND	The emergence of politically driven divisions in online discussion networks has attracted a wealth of literature, but also one which has thus far been largely limited to single country studies.
+2	BACKGROUND	"Hence whilst there is good evidence that these networks do divide and fragment into what are often described as ""echo chambers"", we know little about the factors which might explain this division or make networks more or less fragmented, as studies have been limited to a small number of political groupings with limited possibilities for systematic comparison."
+3	OBJECTIVE	This paper seeks to remedy this deficit, by providing a systematic large scale study of fragmentation on Twitter which considers discussion networks surrounding 90 different political parties in 23 different countries.
+4	RESULTS	It shows that political party groupings which are further apart in ideological terms interact less, and that individuals and parties which sit at the extreme ends of the ideological scale are particularly likely to form echo chambers.
+5	RESULTS	Indeed, exchanges between centrist parties who sit on different sides of the left-right divide are more likely than communication between centrist and extremist parties who are, notionally, from the same ideological wing.
+6	CONCLUSIONS	In light of the results, theory about exposure to different ideological viewpoints online is discussed and enhanced.
+1	BACKGROUND	Nowadays, a big part of people rely on available content in social media in their decisions (e.g. reviews and feedback on a topic or product).
+2	BACKGROUND	The possibility that anybody can leave a review provide a golden opportunity for spammers to write spam reviews about products and services for different interests.
+3	BACKGROUND	Identifying these spammers and the spam content is a hot topic of research and although a considerable number of studies have been done recently toward this end, but so far the methodologies put forth still barely detect spam reviews, and none of them show the importance of each extracted feature type.
+4	OBJECTIVE	In this study, we propose a novel framework, named NetSpam, which utilizes spam features for modeling review datasets as heterogeneous information networks to map spam detection procedure into a classification problem in such networks.
+5	METHODS	Using the importance of spam features help us to obtain better results in terms of different metrics experimented on real-world review datasets from Yelp and Amazon websites.
+6	RESULTS	The results show that NetSpam outperforms the existing methods and among four categories of features; including review-behavioral, user-behavioral, reviewlinguistic, user-linguistic, the first type of features performs better than the other categories.
+1	OBJECTIVE	In this paper we describe a dynamic normalization process applied to social network multilingual documents (Facebook and Twitter) to improve the performance of the Author profiling task for short texts.
+2	METHODS	After the normalization process, $n$-grams of characters and n-grams of POS tags are obtained to extract all the possible stylistic information encoded in the documents (emoticons, character flooding, capital letters, references to other users, hyperlinks, hashtags, etc.).
+3	RESULTS	Experiments with SVM showed up to 90% of performance.
+1	BACKGROUND	The increasing popularity of academic social networking sites (ASNSs) requires studies on the usage of ASNSs among scholars and evaluations of the effectiveness of these ASNSs.
+2	BACKGROUND	However, it is unclear whether current ASNSs have fulfilled their design goal, as scholars' actual online interactions on these platforms remain unexplored.
+3	OBJECTIVE	To fill the gap, this article presents a study based on data collected from ResearchGate.
+4	METHODS	Adopting a mixed-method design by conducting qualitative content analysis and statistical analysis on 1,128 posts collected from ResearchGate Q&A, we examine how scholars exchange information and resources, and how their practices vary across three distinct disciplines: library and information services, history of art, and astrophysics.
+5	RESULTS	Our results show that the effect of a questioner's intention (i.e., seeking information or discussion) is greater than disciplinary factors in some circumstances.
+6	RESULTS	Across the three disciplines, responses to questions provide various resources, including experts' contact details, citations, links to Wikipedia, images, and so on.
+7	CONCLUSIONS	We further discuss several implications of the understanding of scholarly information exchange and the design of better academic social networking interfaces, which should stimulate scholarly interactions by minimizing confusion, improving the clarity of questions, and promoting scholarly content management.
+1	OBJECTIVE	In this paper, we study how rumors in Online Social Networks (OSNs) may impact the performance of device-to-device (D2D) communication.
+2	BACKGROUND	As D2D is a new technology, people may choose not to use it when believed in rumors of its negative impacts.
+3	BACKGROUND	Thus, the cellular network with underlaying D2D is vulnerable to OSNs as rumors in OSNs may decrement the throughput of the cellular network in popular content delivery scenarios.
+4	OBJECTIVE	To analyze the vulnerability, we introduce the problem of finding the most critical nodes in the OSN such that the throughput of a content delivery scenario is minimized when a rumor starts from those nodes.
+5	OBJECTIVE	We then propose an efficient solution to the critical nodes detection problem.
+6	RESULTS	The severity of such vulnerability is supported by extensive experiments in various simulation settings, from which we observe up to $40\%$ reduction in network throughput.
+1	BACKGROUND	Researchers in fields such as sociology, demography and public health, have used data from social media to explore a diversity of questions.
+2	BACKGROUND	In public health, researchers use data from social media to monitor disease spread, assess population attitudes toward health-related issues, and to better understand the relationship between behavioral changes and population health.
+3	BACKGROUND	However, a major limitation of the use of these data for population health research is a lack of key demographic indicators such as, age, race and gender.
+4	BACKGROUND	Several studies have proposed methods for automated detection of social media users' demographic characteristics.
+5	BACKGROUND	These range from facial recognition to classic supervised and unsupervised machine learning methods.
+6	OBJECTIVE	We seek to provide a review of existing approaches to automated detection of demographic characteristics of social media users.
+7	OBJECTIVE	We also address the applicability of these methods to public health research; focusing on the challenge of working with highly dynamical, large scale data to study health trends.
+8	RESULTS	Furthermore, we provide an overview of work that emphasizes scalability and efficiency in data acquisition and processing, and make best practice recommendations.
+1	OBJECTIVE	We present in this paper a multicultural approach to social media marketing analytics, applied in two Facebook brand pages: French (individualistic culture, the country home of the brand) versus Saudi Arabian (collectivistic culture, one of its country hosts), which are published by an internationalbeauty \& cosmetics firm.
+2	METHODS	Using social network analysis and content analysis, we identify the most popular posts and the most influential users within these two brand pages and highlight the different communities emerging from brand and users interactions.
+3	RESULTS	These communities seem to be culture oriented when they are constructed around socialization branded posts and product-line oriented when advertising branded posts are concerned.
+1	BACKGROUND	Recent years have seen tremendous growth of many online social networks such as Facebook, LinkedIn and MySpace.
+2	BACKGROUND	People connect to each other through these networks forming large social communities providing researchers rich datasets to understand, model and predict social interactions and behaviors.
+3	BACKGROUND	New contacts in these networks can be formed due to an individual's demographic attributes such as age group, gender, geographic location, or due to a network's structural dynamics such as triadic closure and preferential attachment, or a combination of both demographic and structural characteristics.
+4	BACKGROUND	A number of network generation models have been proposed in the last decade to explain the structure, evolution and processes taking place in different types of networks, and notably social networks.
+5	BACKGROUND	Network generation models studied in the literature primarily consider structural properties, and in some cases an individual's demographic profile in the formation of new social contacts.
+6	BACKGROUND	These models do not present a mechanism to combine both structural and demographic characteristics for the formation of new links.
+7	OBJECTIVE	In this paper, we propose a new network generation algorithm which incorporates both these characteristics to model network formation.
+8	METHODS	We use different publicly available Facebook datasets as benchmarks to demonstrate the correctness of the proposed network generation model.
+9	CONCLUSIONS	The proposed model is flexible and thus can generate networks with varying demographic and structural properties.
+1	BACKGROUND	Ego-networks are fundamental structures in social graphs, yet the process of their evolution is still widely unexplored.
+2	BACKGROUND	In an online context, a key question is how link recommender systems may skew the growth of these networks, possibly restraining diversity.
+3	METHODS	To shed light on this matter, we analyze the complete temporal evolution of 170M ego-networks extracted from Flickr and Tumblr, comparing links that are created spontaneously with those that have been algorithmically recommended.
+4	RESULTS	We find that the evolution of ego-networks is bursty, community-driven, and characterized by subsequent phases of explosive diameter increase, slight shrinking, and stabilization.
+5	RESULTS	Recommendations favor popular and well-connected nodes, limiting the diameter expansion.
+6	RESULTS	With a matching experiment aimed at detecting causal relationships from observational data, we find that the bias introduced by the recommendations fosters global diversity in the process of neighbor selection.
+7	OBJECTIVE	Last, with two link prediction experiments, we show how insights from our analysis can be used to improve the effectiveness of social recommender systems.
+1	BACKGROUND	Suicide is an important but often misunderstood problem, one that researchers are now seeking to better understand through social media.
+2	BACKGROUND	Due in large part to the fuzzy nature of what constitutes suicidal risks, most supervised approaches for learning to automatically detect suicide-related activity in social media require a great deal of human labor to train.
+3	BACKGROUND	However, humans themselves have diverse or conflicting views on what constitutes suicidal thoughts.
+4	BACKGROUND	So how to obtain reliable gold standard labels is fundamentally challenging and, we hypothesize, depends largely on what is asked of the annotators and what slice of the data they label.
+5	METHODS	We conducted multiple rounds of data labeling and collected annotations from crowdsourcing workers and domain experts.
+6	METHODS	We aggregated the resulting labels in various ways to train a series of supervised models.
+7	RESULTS	Our preliminary evaluations show that using unanimously agreed labels from multiple annotators is helpful to achieve robust machine models.
+1	BACKGROUND	Social media are a rich source of insight for data mining and user-centred research, but the question of consent arises when studying such data without the express knowledge of the creator.
+2	BACKGROUND	Case studies that mine social data from users of online services such as Facebook and Twitter are becoming increasingly common.
+3	BACKGROUND	This has led to calls for an open discussion into how researchers can best use these vast resources to make innovative findings while still respecting fundamental ethical principles.
+4	OBJECTIVE	In this position paper we highlight some key considerations for this topic and argue that the conditions of informed consent are often not being met, and that using social media data that some deem free to access and analyse may result in undesirable consequences, particularly within the domain of health research and other sensitive topics.
+5	CONCLUSIONS	We posit that successful exploitation of online personal data, particularly for health and other sensitive research, requires new and usable methods of obtaining consent from the user.
+1	BACKGROUND	The structure of a social network is fundamentally related to the interests of its members.
+2	BACKGROUND	People assort spontaneously based on the topics that are relevant to them, forming social groups that revolve around different subjects.
+3	BACKGROUND	Online social media are also favorable ecosystems for the formation of topical communities centered on matters that are not commonly taken up by the general public because of the embarrassment, discomfort, or shock they may cause.
+4	BACKGROUND	Those are communities that depict or discuss what are usually referred to as deviant behaviors, conducts that are commonly considered inappropriate because they are somehow violative of society's norms or moral standards that are shared among the majority of the members of society.
+5	BACKGROUND	Pornography consumption, drug use, excessive drinking, illegal hunting, eating disorders, or any self-harming or addictive practice are all examples of deviant behaviors.
+1	BACKGROUND	"Social networking sites such as Twitter and Facebook have been shown to function as effective social sensors that can ""feel the pulse"" of a community."
+2	OBJECTIVE	The aim of the current study is to test the feasibility of designing, implementing and evaluating a bespoke social media-enabled intervention that can be effective for sharing and changing knowledge, attitudes and behaviours in meaningful ways to promote public health, specifically with regards to prevention of skin cancer.
+3	CONCLUSIONS	We present the design and implementation details of the campaign followed by summary findings and analysis.
+1	BACKGROUND	There are large amounts of insight and social discovery potential in mining crowd-sourced comments left on popular news forums like Reddit.com, Tumblr.com, Facebook.com and Hacker News.
+2	BACKGROUND	Unfortunately, due the overwhelming amount of participation with its varying quality of commentary, extracting value out of such data isn't always obvious nor timely.
+3	OBJECTIVE	By designing efficient, single-pass and adaptive natural language filters to quickly prune spam, noise, copy-cats, marketing diversions, and out-of-context posts, we can remove over a third of entries and return the comments with a higher probability of relatedness to the original article in question.
+4	METHODS	The approach presented here uses an adaptive, two-step filtering process.
+5	RESULTS	It first leverages the original article posted in the thread as a starting corpus to parse comments by matching intersecting words and term-ratio balance per sentence then grows the corpus by adding new words harvested from high-matching comments to increase filtering accuracy over time.
+1	BACKGROUND	Many of today's most widely used computing applications utilize social networking features and allow users to connect, follow each other, share content, and comment on others' posts.
+2	BACKGROUND	However, despite the widespread adoption of these features, there is little understanding of the consequences that social networking has on user retention, engagement, and online as well as offline behavior.
+3	OBJECTIVE	Here, we study how social networks influence user behavior in a physical activity tracking application.
+4	OBJECTIVE	We analyze 791 million online and offline actions of 6 million users over the course of 5 years, and show that social networking leads to a significant increase in users' online as well as offline activities.
+5	METHODS	Specifically, we establish a causal effect of how social networks influence user behavior.
+6	OBJECTIVE	We show that the creation of new social connections increases user online in-application activity by 30%, user retention by 17%, and user offline real-world physical activity by 7% (about 400 steps per day).
+7	METHODS	By exploiting a natural experiment we distinguish the effect of social influence of new social connections from the simultaneous increase in user's motivation to use the app and take more steps.
+8	OBJECTIVE	We show that social influence accounts for 55% of the observed changes in user behavior, while the remaining 45% can be explained by the user's increased motivation to use the app.
+9	OBJECTIVE	Further, we show that subsequent, individual edge formations in the social network lead to significant increases in daily steps.
+10	RESULTS	These effects diminish with each additional edge and vary based on edge attributes and user demographics.
+11	METHODS	Finally, we utilize these insights to develop a model that accurately predicts which users will be most influenced by the creation of new social network connections.
+1	BACKGROUND	In a social network, influence diffusion is the process of spreading innovations from user to user.
+2	BACKGROUND	An activation state identifies who are the active users who have adopted the target innovation.
+3	BACKGROUND	Given an activation state of a certain diffusion, effector detection aims to reveal the active users who are able to best explain the observed state.
+4	OBJECTIVE	In this paper, we tackle the effector detection problem from two perspectives.
+5	METHODS	The first approach is based on the influence distance that measures the chance that an active user can activate its neighbors.
+6	METHODS	For a certain pair of users, the shorter the influence distance, the higher probability that one can activate the other.
+7	METHODS	Given an activation state, the effectors are expected to have short influence distance to active users while long to inactive users.
+8	METHODS	By this idea, we propose the influence-distance-based effector detection problem and provide a 3-approximation.
+9	METHODS	Second, we address the effector detection problem by the maximum likelihood estimation (MLE) approach.
+10	METHODS	We prove that the optimal MLE can be obtained in polynomial time for connected directed acyclic graphs.
+11	METHODS	For general graphs, we first extract a directed acyclic subgraph that can well preserve the information in the original graph and then apply the MLE approach to the extracted subgraph to obtain the effectors.
+12	METHODS	The effectiveness of our algorithms is experimentally verified via simulations on the real-world social network.
+1	BACKGROUND	In this paper, we introduce a methodology that allows to model behavioral trajectories of users in online social media.
+2	BACKGROUND	First, we illustrate how to leverage the probabilistic framework provided by Hidden Markov Models (HMMs) to represent users by embedding the temporal sequences of actions they performed online.
+3	BACKGROUND	We then derive a model-based distance between trained HMMs, and we use spectral clustering to find homogeneous clusters of users showing similar behavioral trajectories.
+4	BACKGROUND	To provide platform-agnostic results, we apply the proposed approach to two different online social media --- i.e.
+5	BACKGROUND	Facebook and YouTube.
+6	BACKGROUND	We conclude discussing merits and limitations of our approach as well as future and promising research directions.
+1	BACKGROUND	Most neural network models for document classification on social media focus on text infor-mation to the neglect of other information on these platforms.
+2	OBJECTIVE	In this paper, we classify post stance on social media channels and develop UTCNN, a neural network model that incorporates user tastes, topic tastes, and user comments on posts.
+3	OBJECTIVE	UTCNN not only works on social media texts, but also analyzes texts in forums and message boards.
+4	RESULTS	Experiments performed on Chinese Facebook data and English online debate forum data show that UTCNN achieves a 0.755 macro-average f-score for supportive, neutral, and unsupportive stance classes on Facebook data, which is significantly better than models in which either user, topic, or comment information is withheld.
+5	RESULTS	This model design greatly mitigates the lack of data for the minor class without the use of oversampling.
+6	RESULTS	In addition, UTCNN yields a 0.842 accuracy on English online debate forum data, which also significantly outperforms results from previous work as well as other deep learning models, showing that UTCNN performs well regardless of language or platform.
+1	CONCLUSIONS	Cooperative behaviors are common in humans and are fundamental to our society.
+2	BACKGROUND	Theoretical and experimental studies have modeled environments in which the behaviors of humans, or agents, have been restricted to analyze their social behavior.
+3	BACKGROUND	However, it is important that such studies are generalized to less restrictive environments to understand human society.
+4	BACKGROUND	Social network games (SNGs) provide a particularly powerful tool for the quantitative study of human behavior.
+5	BACKGROUND	In SNGs, numerous players can behave more freely than in the environments used in previous studies; moreover, their relationships include apparent conflicts of interest and every action can be recorded.
+6	METHODS	We focused on reciprocal altruism, one of the mechanisms that generate cooperative behavior.
+7	OBJECTIVE	This study aims to investigate cooperative behavior based on reciprocal altruism in a less restrictive environment.
+8	METHODS	For this purpose, we analyzed the social behavior underlying such cooperative behavior in an SNG.
+9	METHODS	We focused on a game scenario in which the relationship between the players was similar to that in the Leader game.
+10	METHODS	We defined cooperative behaviors by constructing a payoff matrix in the scenario.
+11	RESULTS	The results showed that players maintained cooperative behavior based on reciprocal altruism, and cooperators received more advantages than noncooperators.
+12	CONCLUSIONS	We found that players constructed reciprocal relationships based on two types of interactions, cooperative behavior and unproductive communication.
+1	OBJECTIVE	This paper presents Centre for Development of Advanced Computing Mumbai's (CDACM) submission to the NLP Tools Contest on Part-Of-Speech (POS) Tagging For Code-mixed Indian Social Media Text (POSCMISMT) 2015 (collocated with ICON 2015).
+2	OBJECTIVE	We submitted results for Hindi (hi), Bengali (bn), and Telugu (te) languages mixed with English (en).
+3	OBJECTIVE	In this paper, we have described our approaches to the POS tagging techniques, we exploited for this task.
+4	METHODS	Machine learning has been used to POS tag the mixed language text.
+5	METHODS	For POS tagging, distributed representations of words in vector space (word2vec) for feature extraction and Log-linear models have been tried.
+6	METHODS	We report our work on all three languages hi, bn, and te mixed with en.
+1	BACKGROUND	Given a network represented by a graph $G=(V,E)$, we consider a dynamical process of influence diffusion in $G$ that evolves as follows: Initially only the nodes of a given $S\subseteq V$ are influenced; subsequently, at each round, the set of influenced nodes is augmented by all the nodes in the network that have a sufficiently large number of already influenced neighbors.
+2	BACKGROUND	The question is to determine a small subset of nodes $S$ (\emph{a target set}) that can influence the whole network.
+3	BACKGROUND	This is a widely studied problem that abstracts many phenomena in the social, economic, biological, and physical sciences.
+4	BACKGROUND	It is known that the above optimization problem is hard to approximate within a factor of $2^{\log^{1-\epsilon}|V|}$, for any $\epsilon >0$.
+5	OBJECTIVE	In this paper, we present a fast and surprisingly simple algorithm that exhibits the following features: 1) when applied to trees, cycles, or complete graphs, it always produces an optimal solution (i.e, a minimum size target set); 2) when applied to arbitrary networks, it always produces a solution of cardinality which improves on the previously known upper bound; 3) when applied to real-life networks, it always produces solutions that substantially outperform the ones obtained by previously published algorithms (for which no proof of optimality or performance guarantee is known in any class of graphs).
+1	BACKGROUND	The massive diffusion of online social media allows for the rapid and uncontrolled spreading of conspiracy theories, hoaxes, unsubstantiated claims, and false news.
+2	BACKGROUND	Such an impressive amount of misinformation can influence policy preferences and encourage behaviors strongly divergent from recommended practices.
+3	OBJECTIVE	In this paper, we study the statistical properties of viral misinformation in online social media.
+4	METHODS	By means of methods belonging to Extreme Value Theory, we show that the number of extremely viral posts over time follows a homogeneous Poisson process, and that the interarrival times between such posts are independent and identically distributed, following an exponential distribution.
+5	METHODS	Moreover, we characterize the uncertainty around the rate parameter of the Poisson process through Bayesian methods.
+6	METHODS	Finally, we are able to derive the predictive posterior probability distribution of the number of posts exceeding a certain threshold of shares over a finite interval of time.
+1	BACKGROUND	Social media tend to be rife with rumours while new reports are released piecemeal during breaking news.
+2	OBJECTIVE	Interestingly, one can mine multiple reactions expressed by social media users in those situations, exploring their stance towards rumours, ultimately enabling the flagging of highly disputed rumours as being potentially false.
+3	METHODS	In this work, we set out to develop an automated, supervised classifier that uses multi-task learning to classify the stance expressed in each individual tweet in a rumourous conversation as either supporting, denying or questioning the rumour.
+4	METHODS	Using a classifier based on Gaussian Processes, and exploring its effectiveness on two datasets with very different characteristics and varying distributions of stances, we show that our approach consistently outperforms competitive baseline classifiers.
+5	RESULTS	Our classifier is especially effective in estimating the distribution of different types of stance associated with a given rumour, which we set forth as a desired characteristic for a rumour-tracking system that will warn both ordinary users of Twitter and professional news practitioners when a rumour is being rebutted.
+1	OBJECTIVE	In this work, we are interested in finding the most efficient use of a budget to promote an opinion by paying agents within a group to supplant their true opinions.
+2	METHODS	We model opinions as continuous scalars ranging from 0 to 1 with 1 (0) representing extremely positive (negative) opinion.
+3	METHODS	We focus on asymmetric confidence between agents.
+4	METHODS	The iterative update of an agent corresponds to the best response to other agents' actions.
+5	METHODS	The resulting confidence matrix can be seen as an equivalent Markov chain.
+6	RESULTS	We provide simple and efficient algorithms to solve this problem and we show through an example how to solve the stated problem in practice.
+1	OBJECTIVE	Our aim here is to address the problem of decomposing a whole network into a minimal number of ego-centered subnetworks.
+2	METHODS	For this purpose, the network egos are picked out as the members of a minimum dominating set of the network.
+3	METHODS	However, to find such an efficient dominating ego-centered construction, we need to be able to detect all the minimum dominating sets and to compare all the corresponding dominating ego-centered decompositions of the network.
+4	METHODS	To find all the minimum dominating sets of the network, we are developing a computational heuristic, which is based on the partition of the set of nodes of a graph into three subsets, the always dominant vertices, the possible dominant vertices and the never dominant vertices, when the domination number of the network is known.
+5	METHODS	To compare the ensuing dominating ego-centered decompositions of the network, we are introducing a number of structural measures that count the number of nodes and links inside and across the ego-centered subnetworks.
+6	METHODS	Furthermore, we are applying the techniques of graph domination and ego=centered decomposition for six empirical social networks.
+1	BACKGROUND	We consider stochastic influence maximization problems arising in social networks.
+2	BACKGROUND	In contrast to existing studies that involve greedy approximation algorithms with a 63% performance guarantee, our work focuses on solving the problem optimally.
+3	OBJECTIVE	To this end, we introduce a new class of problems that we refer to as two-stage stochastic submodular optimization models.
+4	OBJECTIVE	We propose a delayed constraint generation algorithm to find the optimal solution to this class of problems with a finite number of samples.
+5	BACKGROUND	The influence maximization problems of interest are special cases of this general problem class.
+6	RESULTS	We show that the submodularity of the influence function can be exploited to develop strong optimality cuts that are more effective than the standard optimality cuts available in the literature.
+7	RESULTS	Finally, we report our computational experiments with large-scale real-world datasets for two fundamental influence maximization problems, independent cascade and linear threshold, and show that our proposed algorithm outperforms the greedy algorithm.
+1	BACKGROUND	With the recent advance of micro-blogs and social networks, people can view and post comments on the websites in a very convenient way.
+2	BACKGROUND	However, it is also a big concern that the malicious users keep polluting the cyber environment by scamming, spamming or repeatedly advertising.
+3	BACKGROUND	So far the most common way to detect and report malicious comments is based on voluntary reviewing from honest users.
+4	BACKGROUND	To encourage contribution, very often some non-monetary credits will be given to an honest user who validly reports a malicious comment.
+5	OBJECTIVE	In this note we argue that such credit-based incentive mechanisms should fail in most cases: if reporting a malicious comment receives diminishing revenue, then in the long term no rational honest user will participate in comment reviewing.
+1	BACKGROUND	Existing Location-based social networks (LBSNs), e.g., Foursquare, depend mainly on GPS or cellular-based localization to infer users' locations.
+2	BACKGROUND	However, GPS is unavailable indoors and cellular-based localization provides coarse-grained accuracy.
+3	BACKGROUND	This limits the accuracy of current LBSNs in indoor environments, where people spend 89% of their time.
+4	BACKGROUND	This in turn affects the user experience, in terms of the accuracy of the ranked list of venues, especially for the small screens of mobile devices; misses business opportunities; and leads to reduced venues coverage.
+5	OBJECTIVE	In this paper, we present CheckInside: a system that can provide a fine-grained indoor location-based social network.
+6	METHODS	CheckInside leverages the crowd-sensed data collected from users' mobile devices during the check-in operation and knowledge extracted from current LBSNs to associate a place with a logical name and a semantic fingerprint.
+7	METHODS	This semantic fingerprint is used to obtain a more accurate list of nearby places as well as to automatically detect new places with similar signature.
+8	METHODS	A novel algorithm for detecting fake check-ins and inferring a semantically-enriched floorplan is proposed as well as an algorithm for enhancing the system performance based on the user implicit feedback.
+9	METHODS	Furthermore, CheckInside encompasses a coverage extender module to automatically predict names of new venues increasing the coverage of current LBSNs.
+10	RESULTS	Experimental evaluation of CheckInside in four malls over the course of six weeks with 20 participants shows that it can infer the actual user place within the top five venues 99% of the time.
+11	RESULTS	This is compared to 17% only in the case of current LBSNs.
+12	RESULTS	In addition, it increases the coverage of existing LBSNs by more than 37%.
+1	BACKGROUND	Micro-blogging services can track users' geo-locations when users check-in their places or use geo-tagging which implicitly reveals locations.
+2	OBJECTIVE	"This ""geo tracking"" can help to find topics triggered by some events in certain regions."
+3	METHODS	However, discovering such topics is very challenging because of the large amount of noisy messages (e.g. daily conversations).
+4	OBJECTIVE	This paper proposes a method to model geographical topics, which can filter out irrelevant words by different weights in the local and global contexts.
+5	METHODS	Our method is based on the Latent Dirichlet Allocation (LDA) model but each word is generated from either a local or a global topic distribution by its generation probabilities.
+6	METHODS	We evaluated our model with data collected from Weibo, which is currently the most popular micro-blogging service for Chinese.
+7	RESULTS	The evaluation results demonstrate that our method outperforms other baseline methods in several metrics such as model perplexity, two kinds of entropies and KL-divergence of discovered topics.
+1	BACKGROUND	In severe outbreaks such as Ebola, bird flu and SARS, people share news, and their thoughts and responses regarding the outbreaks on social media.
+2	BACKGROUND	Understanding how people perceive the severe outbreaks, what their responses are, and what factors affect these responses become important.
+3	OBJECTIVE	In this paper, we conduct a comprehensive study of understanding and mining the spread of Ebola-related information on social media.
+4	METHODS	In particular, we (i) conduct a large-scale data-driven analysis of geotagged social media messages to understand citizen reactions regarding Ebola; (ii) build information propagation models which measure locality of information; and (iii) analyze spatial, temporal and social properties of Ebola-related information.
+5	RESULTS	Our work provides new insights into Ebola outbreak by understanding citizen reactions and topic-based information propagation, as well as providing a foundation for analysis and response of future public health crises.
+1	BACKGROUND	The increased popularity and ubiquitous availability of online social networks and globalised Internet access have affected the way in which people share content.
+2	BACKGROUND	The information that users willingly disclose on these platforms can be used for various purposes, from building consumer models for advertising, to inferring personal, potentially invasive, information.
+3	OBJECTIVE	In this work, we use Twitter, Instagram and Foursquare data to convey the idea that the content shared by users, especially when aggregated across platforms, can potentially disclose more information than was originally intended.
+4	METHODS	We perform two case studies: First, we perform user de-anonymization by mimicking the scenario of finding the identity of a user making anonymous posts within a group of users.
+5	METHODS	Empirical evaluation on a sample of real-world social network profiles suggests that cross-platform aggregation introduces significant performance gains in user identification.
+6	METHODS	In the second task, we show that it is possible to infer physical location visits of a user on the basis of shared Twitter and Instagram content.
+7	METHODS	We present an informativeness scoring function which estimates the relevance and novelty of a shared piece of information with respect to an inference task.
+8	METHODS	This measure is validated using an active learning framework which chooses the most informative content at each given point in time.
+9	RESULTS	Based on a large-scale data sample, we show that by doing this, we can attain an improved inference performance.
+10	RESULTS	In some cases this performance exceeds even the use of the user's full timeline.
+1	OBJECTIVE	We present NECTAR, a community detection algorithm that generalizes Louvain method's local search heuristic for overlapping community structures.
+2	METHODS	NECTAR chooses dynamically which objective function to optimize based on the network on which it is invoked.
+3	RESULTS	Our experimental evaluation on both synthetic benchmark graphs and real-world networks, based on ground-truth communities, shows that NECTAR provides excellent results as compared with state of the art community detection algorithms.
+1	BACKGROUND	Social networks enable users to freely communicate with each other and share their recent news, ongoing activities or views about different topics.
+2	BACKGROUND	As a result, they can be seen as a potentially viable source of information to understand the current emerging topics/events.
+3	BACKGROUND	The ability to model emerging topics is a substantial step to monitor and summarize the information originating from social sources.
+4	BACKGROUND	Applying traditional methods for event detection which are often proposed for processing large, formal and structured documents, are less effective, due to the short length, noisiness and informality of the social posts.
+5	BACKGROUND	Recent event detection techniques address these challenges by exploiting the opportunities behind abundant information available in social networks.
+6	OBJECTIVE	This article provides an overview of the state of the art in event detection from social networks.
+1	OBJECTIVE	We propose evolution rules of the multiagent network and determine statistical patterns in life cycle of agents - information messages.
+2	BACKGROUND	The main discussed statistical pattern is connected with the number of likes and reposts for a message.
+3	BACKGROUND	This distribution corresponds to Weibull distribution according to modeling results.
+4	METHODS	We examine proposed model using the data from Twitter, an online social networking service.
+1	BACKGROUND	Influential users play an important role in online social networks since users tend to have an impact on one other.
+2	BACKGROUND	Therefore, the proposed work analyzes users and their behavior in order to identify influential users and predict user participation.
+3	BACKGROUND	Normally, the success of a social media site is dependent on the activity level of the participating users.
+4	BACKGROUND	For both online social networking sites and individual users, it is of interest to find out if a topic will be interesting or not.
+5	OBJECTIVE	In this article, we propose association learning to detect relationships between users.
+6	METHODS	In order to verify the findings, several experiments were executed based on social network analysis, in which the most influential users identified from association rule learning were compared to the results from Degree Centrality and Page Rank Centrality.
+7	RESULTS	The results clearly indicate that it is possible to identify the most influential users using association rule learning.
+8	RESULTS	In addition, the results also indicate a lower execution time compared to state-of-the-art methods.
+1	BACKGROUND	The increasing prevalence of Virtual Reality technologies as a platform for gaming and video playback warrants research into how to best apply the current state of the art to challenges in data visualization.
+2	BACKGROUND	Many current VR systems are noncollaborative, while data analysis and visualization is often a multi-person process.
+3	OBJECTIVE	Our goal in this paper is to address the technical and user experience challenges that arise when creating VR environments for collaborative data visualization.
+4	METHODS	We focus on the integration of multiple tracking systems and the new interaction paradigms that this integration can enable, along with visual design considerations that apply specifically to collaborative network visualization in virtual reality.
+5	METHODS	We demonstrate a system for collaborative interaction with large 3D layouts of Twitter friend/follow networks.
+6	METHODS	The system is built by combining a 'Holojam' architecture (multiple GearVR Headsets within an OptiTrack motion capture stage) and Perception Neuron motion suits, to offer an untethered, full-room multi-person visualization experience.
+1	BACKGROUND	Finding meaningful communities in social network has attracted the attentions of many researchers.
+2	BACKGROUND	The community structure of complex networks reveals both their organization and hidden relations among their constituents.
+3	BACKGROUND	Most of the researches in the field of community detection mainly focus on the topological structure of the network without performing any content analysis.
+4	BACKGROUND	Nowadays, real world social networks are containing a vast range of information including shared objects, comments, following information, etc.
+5	BACKGROUND	In recent years, a number of researches have proposed approaches which consider both the contents that are interchanged in the networks and the topological structures of the networks in order to find more meaningful communities.
+6	OBJECTIVE	In this research, the effect of topic analysis in finding more meaningful communities in social networking sites in which the users express their feelings toward different objects (like movies) by the means of rating is demonstrated by performing extensive experiments.
+1	BACKGROUND	Drug use by people is on the rise and is of great interest to public health agencies and law enforcement agencies.
+2	BACKGROUND	As found by the National Survey on Drug Use and Health, 20 million Americans aged 12 years or older consumed illicit drugs in the past few 30 days.
+3	BACKGROUND	Given their ubiquity in everyday life, drug abuse related studies have received much and constant attention.
+4	BACKGROUND	However, most of the existing studies rely on surveys.
+5	BACKGROUND	Surveys present a fair number of problems because of their nature.
+6	BACKGROUND	Surveys on sensitive topics such as illicit drug use may not be answered truthfully by the people taking them.
+7	BACKGROUND	Selecting a representative sample to survey is another major challenge.
+8	OBJECTIVE	In this paper, we explore the possibility of using big data from social media in order to understand illicit drug use behaviors.
+9	METHODS	Instagram posts are collected using drug related terms by analyzing the hashtags supplied with each post.
+10	METHODS	A large and dynamic dictionary of frequent illicit drug related slang is used to find these posts.
+11	METHODS	These posts are studied to find common drug consumption behaviors with regard to time of day and week.
+12	METHODS	Furthermore, by studying the accounts followed by the users of drug related posts, we hope to discover common interests shared by drug users.
+1	BACKGROUND	Theories of privacy and how it relates to the use of Information Communication Technology (ICT) have been a topic of research for decades.
+2	BACKGROUND	However, little attention has been paid to the perception of privacy from the perspective of technology users in the Middle East.
+3	OBJECTIVE	In this paper, we delve into interpretations of privacy from the approach of Arab Gulf citizens.
+4	METHODS	We consider how privacy is practiced and understood in technology-mediated environments among this population, paying particular attention to the role of Islam and cultural traditions in constructing norms around privacy.
+5	RESULTS	We then offer culturally sensitive design principles and suggestions for future research that incorporates previously unexplored characteristics of privacy, which play a role in how users navigate social media.
+1	BACKGROUND	The popularity of online social networks (OSNs) makes the protection of users' private information an important but scientifically challenging problem.
+2	BACKGROUND	In the literature, relationship-based access control schemes have been proposed to address this problem.
+3	BACKGROUND	However, with the dynamic developments of OSNs, we identify new access control requirements which cannot be fully captured by the current schemes.
+4	OBJECTIVE	In this paper, we focus on public information in OSNs and treat it as a new dimension which users can use to regulate access to their resources.
+5	METHODS	We define a new OSN model containing users and their relationships as well as public information.
+6	METHODS	Based on this model, we introduce a variant of hybrid logic for formulating access control policies.
+7	METHODS	We exploit a type of category information and relationship hierarchy to further extend our logic for its usage in practice.
+8	METHODS	In the end, we propose a few solutions to address the problem of information reliability in OSNs, and formally model collaborative access control in our access control scheme.
+1	BACKGROUND	Urban sound has a huge influence over how we perceive places.
+2	BACKGROUND	Yet, city planning is concerned mainly with noise, simply because annoying sounds come to the attention of city officials in the form of complaints, while general urban sounds do not come to the attention as they cannot be easily captured at city scale.
+3	OBJECTIVE	To capture both unpleasant and pleasant sounds, we applied a new methodology that relies on tagging information of geo-referenced pictures to the cities of London and Barcelona.
+4	METHODS	To begin with, we compiled the first urban sound dictionary and compared it to the one produced by collating insights from the literature: ours was experimentally more valid (if correlated with official noise pollution levels) and offered a wider geographic coverage.
+5	METHODS	From picture tags, we then studied the relationship between soundscapes and emotions.
+6	RESULTS	We learned that streets with music sounds were associated with strong emotions of joy or sadness, while those with human sounds were associated with joy or surprise.
+7	METHODS	Finally, we studied the relationship between soundscapes and people's perceptions and, in so doing, we were able to map which areas are chaotic, monotonous, calm, and exciting.
+8	CONCLUSIONS	Those insights promise to inform the creation of restorative experiences in our increasingly urbanized world.
+1	BACKGROUND	Link recommendation, which suggests links to connect currently unlinked users, is a key functionality offered by major online social networks.
+2	BACKGROUND	"Salient examples of link recommendation include ""People You May Know"" on Facebook and LinkedIn as well as ""You May Know"" on Google+."
+3	BACKGROUND	The main stakeholders of an online social network include users (e.g., Facebook users) who use the network to socialize with other users and an operator (e.g., Facebook Inc.) that establishes and operates the network for its own benefit (e.g., revenue).
+4	BACKGROUND	Existing link recommendation methods recommend links that are likely to be established by users but overlook the benefit a recommended link could bring to an operator.
+5	OBJECTIVE	To address this gap, we define the utility of recommending a link and formulate a new research problem - the utility-based link recommendation problem.
+6	OBJECTIVE	We then propose a novel utility-based link recommendation method that recommends links based on the value, cost, and linkage likelihood of a link, in contrast to existing link recommendation methods which focus solely on linkage likelihood.
+7	METHODS	Specifically, our method models the dependency relationship between value, cost, linkage likelihood and utility-based link recommendation decision using a Bayesian network, predicts the probability of recommending a link with the Bayesian network, and recommends links with the highest probabilities.
+8	RESULTS	Using data obtained from a major U.S. online social network, we demonstrate significant performance improvement achieved by our method compared to prevalent link recommendation methods from representative prior research.
+1	BACKGROUND	Social media platforms are popular venues for fashion brand marketing and advertising.
+2	BACKGROUND	With the introduction of native advertising, users don't have to endure banner ads that hold very little saliency and are unattractive.
+3	BACKGROUND	Using images and subtle text overlays, even in a world of ever-depreciating attention span, brands can retain their audience and have a capacious creative potential.
+4	BACKGROUND	While an assortment of marketing strategies are conjectured, the subtle distinctions between various types of marketing strategies remain under-explored.
+5	OBJECTIVE	This paper presents a qualitative analysis on the influence of social media platforms on different behaviors of fashion brand marketing.
+6	METHODS	We employ both linguistic and computer vision techniques while comparing and contrasting strategic idiosyncrasies.
+7	METHODS	We also analyze brand audience retention and social engagement hence providing suggestions in adapting advertising and marketing strategies over Twitter and Instagram.
+1	BACKGROUND	Early detection and modeling of a contagious epidemic can provide important guidance about quelling the contagion, controlling its spread, or the effective design of countermeasures.
+2	BACKGROUND	A topic of recent interest has been to design social network sensors, i.e., identifying a small set of people who can be monitored to provide insight into the emergence of an epidemic in a larger population.
+3	OBJECTIVE	We formally pose the problem of designing social network sensors for flu epidemics and identify two different objectives that could be targeted in such sensor design problems.
+4	METHODS	Using the graph theoretic notion of dominators we develop an efficient and effective heuristic for forecasting epidemics at lead time.
+5	METHODS	Using six city-scale datasets generated by extensive microscopic epidemiological simulations involving millions of individuals, we illustrate the practical applicability of our methods and show significant benefits (up to twenty-two days more lead time) compared to other competitors.
+6	RESULTS	Most importantly, we demonstrate the use of surrogates or proxies for policy makers for designing social network sensors that require from nonintrusive knowledge of people to more information on the relationship among people.
+7	RESULTS	The results show that the more intrusive information we obtain, the longer lead time to predict the flu outbreak up to nine days.
+1	BACKGROUND	Finding communities or clusters in social networks is a fa- mous topic in social network analysis.
+2	BACKGROUND	Most algorithms are limited to static snapshots, so they cannot handle dynamics within the underlying graph.
+3	OBJECTIVE	In this paper we present a modification of the Louvain community detec- tion method to handle changes in the graph without rerunning the full algorithm.
+4	METHODS	Also, we adapted the Louvain greedy approach to optimize the Infomap measure.
+5	METHODS	The main idea is, to recalculate only a small area around the changes.
+6	METHODS	Depending on the graph size and the amount of changes, this yields a massive runtime decrease.
+7	METHODS	As validation data, we provide a graph generator, which produces spe- cific community structures, at given times and also intermediate steps to transform the graph from one to another specific graph.
+8	RESULTS	Experiments show that runtime decrease is possible without much loss of quality.
+9	RESULTS	These values depend on the reprocessed area inside the graph.
+1	OBJECTIVE	We propose a new mathematical framework for the evolution and propagation of opinions, called Fuzzy Opinion Network, which is the connection of a number of Gaussian Nodes, possibly through some weighted average, time-delay or logic operators, where a Gaussian Node is a Gaussian fuzzy set with the center and the standard deviation being the node inputs and the fuzzy set itself being the node output.
+2	METHODS	In this framework an opinion is modeled as a Gaussian fuzzy set with the center representing the opinion itself and the standard deviation characterizing the uncertainty about the opinion.
+3	METHODS	We study the basic connections of Fuzzy Opinion Networks, including basic center, basic standard deviation (sdv), basic center-sdv, chain-in-center and chain-in-sdv connections, and we analyze a number of dynamic connections to show how opinions and their uncertainties propagate and evolve across different network structures and scenarios.
+4	RESULTS	We explain what insights we might gain from these mathematical results about the formation and evolution of human opinions.
+1	BACKGROUND	Most social network analyses focus on online social networks.
+2	BACKGROUND	While these networks encode important aspects of our lives they fail to capture many real-world connections.
+3	BACKGROUND	Most of these connections are, in fact, public and known to the members of the community.
+4	BACKGROUND	Mapping them is a task very suitable for crowdsourcing: it is easily broken down in many simple and independent subtasks.
+5	BACKGROUND	Due to the nature of social networks -- presence of highly connected nodes and tightly knit groups -- if we allow users to map their immediate connections and the connections between them, we will need few participants to map most connections within a community.
+6	OBJECTIVE	To this end, we built the Human Atlas, a web-based tool for mapping social networks.
+7	METHODS	To test it, we partially mapped the social network of the MIT Media Lab.
+8	METHODS	We ran a user study and invited members of the community to use the tool.
+9	RESULTS	In 4.6 man-hours, 22 participants mapped 984 connections within the lab, demonstrating the potential of the tool.
+1	BACKGROUND	Ensuring privacy of users of social networks is probably an unsolvable conundrum.
+2	BACKGROUND	At the same time, an informed use of the existing privacy options by the social network participants may alleviate - or even prevent - some of the more drastic privacy-averse incidents.
+3	BACKGROUND	Unfortunately, recent surveys show that an average user is either not aware of these options or does not use them, probably due to their perceived complexity.
+4	BACKGROUND	It is therefore reasonable to believe that tools assisting users with two tasks: 1) understanding their social net behavior in terms of their privacy settings and broad privacy categories, and 2)recommending reasonable privacy options, will be a valuable tool for everyday privacy practice in a social network context.
+5	OBJECTIVE	This paper presents YourPrivacyProtector, a recommender system that shows how simple machine learning techniques may provide useful assistance in these two tasks to Facebook users.
+6	RESULTS	We support our claim with empirical results of application of YourPrivacyProtector to two groups of Facebook users.
+1	BACKGROUND	Targeted online advertising elicits a potential threat.
+2	BACKGROUND	A commercial agent has a chance to mitigate the visibility of his opponents because their sales or services are of similar types.
+3	BACKGROUND	In this paper, we consider the competition for attention in popular online social networks (OSNs) that usually employ a timeline-based homepage to sort messages chronologically in a limited visible region.
+4	OBJECTIVE	A non-cooperative Tullock-like game model is formulated that consists of a finite amount of \emph{benign} agents and one \emph{malicious} agent.
+5	METHODS	By paying to the OSN, each benign agent seeks to maximize his utility of visibility, while the malicious one aims to reduce the utilities of benign agents.
+6	OBJECTIVE	Our primary purposes are to quantify how robust the overall performance of benign agents is against the malicious action, and how the OSN's revenue is influenced.
+7	METHODS	We derive the upper and the lower bounds of six fundamental measures with regard to the total utility and the total net utility of benign agents and the OSN's revenue under three different scenarios: with and without the malicious agent, and the maximum.
+8	RESULTS	They capture the worst and the best performances of the benign agents as well as the OSN.
+9	RESULTS	Our study reveals two important insights: i) the performance bounds are very sensitive to the malicious agent's willingness to pay at certain ranges; ii) the OSN acquires more revenues from this malicious action.
+1	BACKGROUND	A widely studied process of influence diffusion in social networks posits that the dynamics of influence diffusion evolves as follows: Given a graph $G=(V,E)$, representing the network, initially \emph{only} the members of a given $S\subseteq V$ are influenced; subsequently, at each round, the set of influenced nodes is augmented by all the nodes in the network that have a sufficiently large number of already influenced neighbors.
+2	BACKGROUND	The general problem is to find a small initial set of nodes that influences the whole network.
+3	OBJECTIVE	In this paper we extend the previously described basic model in the following ways: firstly, we assume that there are non negative values $c(v)$ associated to each node $v\in V$, measuring how much it costs to initially influence node $v$, and the algorithmic problem is to find a set of nodes of \emph{minimum total cost} that influences the whole network; successively, we study the consequences of giving \emph{incentives} to member of the networks, and we quantify how this affects (i.e., reduces) the total costs of starting process that influences the whole network.
+4	RESULTS	For the two above problems we provide both hardness and algorithmic results.
+5	METHODS	We also experimentally validate our algorithms via extensive simulations on real life networks.
+1	BACKGROUND	Social media has emerged to be a popular platform for people to express their viewpoints on political protests like the Arab Spring.
+2	BACKGROUND	Millions of people use social media to communicate and mobilize their viewpoints on protests.
+3	BACKGROUND	Hence, it is a valuable tool for organizing social movements.
+4	BACKGROUND	However, the mechanisms by which protest affects the population is not known, making it difficult to estimate the number of protestors.
+5	OBJECTIVE	In this paper, we are inspired by sociological theories of protest participation and propose a framework to predict from the user's past status messages and interactions whether the next post of the user will be a declaration of protest.
+6	METHODS	Drawing concepts from these theories, we model the interplay between the user's status messages and messages interacting with him over time and predict whether the next post of the user will be a declaration of protest.
+7	METHODS	We evaluate the framework using data from the social media platform Twitter on protests during the recent Nigerian elections and demonstrate that it can effectively predict whether the next post of a user is a declaration of protest.
+1	BACKGROUND	Online social networking sites such as Facebook, Twitter and Flickr are among the most popular sites on the Web, providing platforms for sharing information and interacting with a large number of people.
+2	BACKGROUND	The different ways for users to interact, such as liking, retweeting and favoriting user-generated content, are among the defining and extremely popular features of these sites.
+3	BACKGROUND	While empirical studies have been done to learn about the network growth processes in these sites, few studies have focused on social interaction behaviour and the effect of social interaction on network growth.
+4	OBJECTIVE	In this paper, we analyze large-scale data collected from the Flickr social network to learn about individual favoriting behaviour and examine the occurrence of link formation after a favorite is created.
+5	METHODS	We do this using a systematic formulation of Flickr as a two-layer temporal multiplex network: the first layer describes the follow relationship between users and the second layer describes the social interaction between users in the form of favorite markings to photos uploaded by them.
+6	RESULTS	Our investigation reveals that (a) favoriting is well-described by preferential attachment, (b) over 50% of favorites are reciprocated within 10 days if at all they are reciprocated, (c) different kinds of favorites differ in how fast they are reciprocated, and (d) after a favorite is created, multiplex triangles are closed by the creation of follow links by the favoriter's followers to the favorite receiver.
+1	OBJECTIVE	In this paper, we attempt to classify tweets into root categories of the Amazon browse node hierarchy using a set of tweets with browse node ID labels, a much larger set of tweets without labels, and a set of Amazon reviews.
+2	METHODS	Examining twitter data presents unique challenges in that the samples are short (under 140 characters) and often contain misspellings or abbreviations that are trivial for a human to decipher but difficult for a computer to parse.
+3	METHODS	A variety of query and document expansion techniques are implemented in an effort to improve information retrieval to modest success.
+1	OBJECTIVE	We study the structure of the social graph of mobile phone users in the country of Mexico, with a focus on demographic attributes of the users (more specifically the users' age).
+2	METHODS	We examine assortativity patterns in the graph, and observe a strong age homophily in the communications preferences.
+3	METHODS	We propose a graph based algorithm for the prediction of the age of mobile phone users.
+4	METHODS	The algorithm exploits the topology of the mobile phone network, together with a subset of known users ages (seeds), to infer the age of remaining users.
+5	METHODS	We provide the details of the methodology, and show experimental results on a network GT with more than 70 million users.
+6	RESULTS	By carefully examining the topological relations of the seeds to the rest of the nodes in GT, we find topological metrics which have a direct influence on the performance of the algorithm.
+7	RESULTS	In particular we characterize subsets of users for which the accuracy of the algorithm is 62% when predicting between 4 age categories (whereas a pure random guess would yield an accuracy of 25%).
+8	RESULTS	We also show that we can use the probabilistic information computed by the algorithm to further increase its inference power to 72% on a significant subset of users.
+1	OBJECTIVE	In this paper we show how graph structure can be used to drastically reduce the computational bottleneck of the Breadth First Search algorithm (the foundation of many graph traversal techniques).
+2	OBJECTIVE	In particular, we address parallel implementations where the bottleneck is the number of messages between processors emitted at the peak iteration.
+3	METHODS	First, we derive an expression for the expected degree distribution of vertices in the frontier of the algorithm which is shown to be highly skewed.
+4	METHODS	Subsequently, we derive an expression for the expected message along an edge in a particular iteration.
+5	RESULTS	This skew suggests a weighted, iteration based, partition would be advantageous.
+6	RESULTS	Employing the METIS algorithm we then show empirically that such partitions can reduce the message overhead by up to 50% in some particular instances and in the order of 20% on average.
+7	CONCLUSIONS	These results have implications for graph processing in multiprocessor and distributed computing environments.
+1	BACKGROUND	Increased use of social media by police to connect with citizens has encouraged researchers to study different aspects of information exchange (e.g. type of information, credibility and propagation) during emergency and crisis situation.
+2	BACKGROUND	Research studies lack understanding of human behavior such as engagement, emotions and social interaction between citizen and police department on social media.
+3	BACKGROUND	Several social media studies explore and show technological implications of human behavioral aspects in various contexts such as workplace interaction and depression in young mothers.
+4	OBJECTIVE	In this paper, we study online interactions between citizens and Indian police in context of day-to-day policing, including safety concerns, advisories, etc.
+5	BACKGROUND	Indian police departments use Facebook to issue advisories, send alerts and receive citizen complaints and suggestions regarding safety issues and day-to-day policing.
+6	OBJECTIVE	We explore how citizens express their emotions and social support on Facebook.
+7	OBJECTIVE	Our work discusses technological implications of behavioral aspects on social well being of citizens.
+1	OBJECTIVE	This study relates the local property of node dominance to local and global properties of a network.
+2	BACKGROUND	Iterative removal of dominated nodes yields a distributed algorithm for computing a core-periphery decomposition of a social network, where nodes in the network core are seen to be essential in terms of network flow and global structure.
+3	BACKGROUND	Additionally, the connected components in the periphery give information about the community structure of the network, aiding in community detection.
+4	METHODS	A number of explicit results are derived, relating the core and periphery to network flow, community structure and global network structure, which are corroborated by observational results.
+5	METHODS	The method is illustrated using a real world network (DBLP co-authorship network), with ground-truth communities.
+1	BACKGROUND	Compromising social network accounts has become a profitable course of action for cybercriminals.
+2	BACKGROUND	By hijacking control of a popular media or business account, attackers can distribute their malicious messages or disseminate fake information to a large user base.
+3	BACKGROUND	The impacts of these incidents range from a tarnished reputation to multi-billion dollar monetary losses on financial markets.
+4	BACKGROUND	In our previous work, we demonstrated how we can detect large-scale compromises (i.e., so-called campaigns) of regular online social network users.
+5	OBJECTIVE	In this work, we show how we can use similar techniques to identify compromises of individual high-profile accounts.
+6	RESULTS	High-profile accounts frequently have one characteristic that makes this detection reliable -- they show consistent behavior over time.
+7	RESULTS	We show that our system, were it deployed, would have been able to detect and prevent three real-world attacks against popular companies and news agencies.
+8	RESULTS	Furthermore, our system, in contrast to popular media, would not have fallen for a staged compromise instigated by a US restaurant chain for publicity reasons.
+1	BACKGROUND	Online social systems are multiplex in nature as multiple links may exist between the same two users across different social networks.
+2	OBJECTIVE	In this work, we introduce a framework for studying links and interactions between users beyond the individual social network.
+3	METHODS	Exploring the cross-section of two popular online platforms - Twitter and location-based social network Foursquare - we represent the two together as a composite multilayer online social network.
+4	METHODS	Through this paradigm we study the interactions of pairs of users differentiating between those with links on one or both networks.
+5	RESULTS	We find that users with multiplex links, who are connected on both networks, interact more and have greater neighbourhood overlap on both platforms, in comparison with pairs who are connected on just one of the social networks.
+6	RESULTS	In particular, the most frequented locations of users are considerably closer, and similarity is considerably greater among multiplex links.
+7	RESULTS	We present a number of structural and interaction features, such as the multilayer Adamic/Adar coefficient, which are based on the extension of the concept of the node neighbourhood beyond the single network.
+8	RESULTS	Our evaluation, which aims to shed light on the implications of multiplexity for the link generation process, shows that multilayer features, constructed from properties across social networks, perform better than their single network counterparts in predicting links across networks.
+9	CONCLUSIONS	We propose that combining information from multiple networks in a multilayer configuration can provide new insights into user interactions on online social networks, and can significantly improve link prediction overall with valuable applications to social bootstrapping and friend recommendations.
+1	OBJECTIVE	We study the evolution of opinions (or beliefs) over a social network modeled as a signed graph.
+2	METHODS	The sign attached to an edge in this graph characterizes whether the corresponding individuals or end nodes are friends (positive links) or enemies (negative links).
+3	METHODS	Pairs of nodes are randomly selected to interact over time, and when two nodes interact, each of them updates its opinion based on the opinion of the other node and the sign of the corresponding link.
+4	METHODS	This model generalizes DeGroot model to account for negative links: when two enemies interact, their opinions go in opposite directions.
+5	METHODS	We provide conditions for convergence and divergence in expectation, in mean-square, and in almost sure sense, and exhibit phase transition phenomena for these notions of convergence depending on the parameters of the opinion update model and on the structure of the underlying graph.
+6	METHODS	We establish a {\it no-survivor} theorem, stating that the difference in opinions of any two nodes diverges whenever opinions in the network diverge as a whole.
+7	METHODS	We also prove a {\it live-or-die} lemma, indicating that almost surely, the opinions either converge to an agreement or diverge.
+8	METHODS	Finally, we extend our analysis to cases where opinions have hard lower and upper limits.
+9	METHODS	In these cases, we study when and how opinions may become asymptotically clustered to the belief boundaries, and highlight the crucial influence of (strong or weak) structural balance of the underlying network on this clustering phenomenon.
+1	BACKGROUND	Modern Supervisory Control and Data Acquisition SCADA systems used by the electric utility industry to monitor and control electric power generation, transmission and distribution are recognized today as critical components of the electric power delivery infrastructure.
+2	BACKGROUND	SCADA systems are large, complex and incorporate increasing numbers of widely distributed components.
+3	BACKGROUND	The presence of a real time intrusion detection mechanism, which can cope with different types of attacks, is of great importance, in order to defend a system against cyber attacks This defense mechanism must be distributed, cheap and above all accurate, since false positive alarms, or mistakes regarding the origin of the intrusion mean severe costs for the system.
+4	BACKGROUND	Recently an integrated detection mechanism, namely IT-OCSVM was proposed, which is distributed in a SCADA network as a part of a distributed intrusion detection system (IDS), providing accurate data about the origin and the time of an intrusion.
+5	OBJECTIVE	In this paper we also analyze the architecture of the integrated detection mechanism and we perform extensive simulations based on real cyber attacks in a small SCADA testbed in order to evaluate the performance of the proposed mechanism.
+1	BACKGROUND	Social media could provide valuable information to support decision making in crisis management, such as in accidents, explosions and fires.
+2	BACKGROUND	However, much of the data from social media are images, which are uploaded in a rate that makes it impossible for human beings to analyze them.
+3	BACKGROUND	Despite the many works on image analysis, there are no fire detection studies on social media.
+4	OBJECTIVE	To fill this gap, we propose the use and evaluation of a broad set of content-based image retrieval and classification techniques for fire detection.
+5	OBJECTIVE	Our main contributions are: (i) the development of the Fast-Fire Detection method (FFDnR), which combines feature extractor and evaluation functions to support instance-based learning, (ii) the construction of an annotated set of images with ground-truth depicting fire occurrences -- the FlickrFire dataset, and (iii) the evaluation of 36 efficient image descriptors for fire detection.
+6	RESULTS	Using real data from Flickr, our results showed that FFDnR was able to achieve a precision for fire detection comparable to that of human annotators.
+7	CONCLUSIONS	Therefore, our work shall provide a solid basis for further developments on monitoring images from social media.
+1	BACKGROUND	Given a task $\mathcal{T}$, a set of experts $V$ with multiple skills and a social network $G(V, W)$ reflecting the compatibility among the experts, team formation is the problem of identifying a team $C \subseteq V$ that is both competent in performing the task $\mathcal{T}$ and compatible in working together.
+2	BACKGROUND	Existing methods for this problem make too restrictive assumptions and thus cannot model practical scenarios.
+3	OBJECTIVE	The goal of this paper is to consider the team formation problem in a realistic setting and present a novel formulation based on densest subgraphs.
+4	METHODS	Our formulation allows modeling of many natural requirements such as (i) inclusion of a designated team leader and/or a group of given experts, (ii) restriction of the size or more generally cost of the team (iii) enforcing locality of the team, e.g., in a geographical sense or social sense, etc.
+5	METHODS	The proposed formulation leads to a generalized version of the classical densest subgraph problem with cardinality constraints (DSP), which is an NP hard problem and has many applications in social network analysis.
+6	OBJECTIVE	In this paper, we present a new method for (approximately) solving the generalized DSP (GDSP).
+7	METHODS	Our method, FORTE, is based on solving an equivalent continuous relaxation of GDSP.
+8	RESULTS	The solution found by our method has a quality guarantee and always satisfies the constraints of GDSP.
+9	RESULTS	Experiments show that the proposed formulation (GDSP) is useful in modeling a broader range of team formation problems and that our method produces more coherent and compact teams of high quality.
+10	RESULTS	We also show, with the help of an LP relaxation of GDSP, that our method gives close to optimal solutions to GDSP.
+1	BACKGROUND	Sarcasm is considered one of the most difficult problem in sentiment analysis.
+2	BACKGROUND	In our ob-servation on Indonesian social media, for cer-tain topics, people tend to criticize something using sarcasm.
+3	OBJECTIVE	Here, we proposed two additional features to detect sarcasm after a common sentiment analysis is conducted.
+4	METHODS	The features are the negativity information and the number of interjection words.
+5	METHODS	We also employed translated SentiWordNet in the sentiment classification.
+6	METHODS	All the classifications were conducted with machine learning algorithms.
+7	RESULTS	The experimental results showed that the additional features are quite effective in the sarcasm detection.
+1	BACKGROUND	How to enable efficient analytics over such data has been an increasingly important research problem.
+2	BACKGROUND	Given the sheer size of such social networks, many existing studies resort to sampling techniques that draw random nodes from an online social network through its restrictive web/API interface.
+3	BACKGROUND	Almost all of them use the exact same underlying technique of random walk - a Markov Chain Monte Carlo based method which iteratively transits from one node to its random neighbor.
+4	BACKGROUND	Random walk fits naturally with this problem because, for most online social networks, the only query we can issue through the interface is to retrieve the neighbors of a given node (i.e., no access to the full graph topology).
+5	BACKGROUND	"A problem with random walks, however, is the ""burn-in"" period which requires a large number of transitions/queries before the sampling distribution converges to a stationary value that enables the drawing of samples in a statistically valid manner."
+6	OBJECTIVE	"In this paper, we consider a novel problem of speeding up the fundamental design of random walks (i.e., reducing the number of queries it requires) without changing the stationary distribution it achieves - thereby enabling a more efficient ""drop-in"" replacement for existing sampling-based analytics techniques over online social networks."
+7	OBJECTIVE	Our main idea is to leverage the history of random walks to construct a higher-ordered Markov chain.
+8	METHODS	We develop two algorithms, Circulated Neighbors and Groupby Neighbors Random Walk (CNRW and GNRW) and prove that, no matter what the social network topology is, CNRW and GNRW offer better efficiency than baseline random walks while achieving the same stationary distribution.
+9	RESULTS	We demonstrate through extensive experiments on real-world social networks and synthetic graphs the superiority of our techniques over the existing ones.
+1	BACKGROUND	Sparsification reduces the size of networks while preserving structural and statistical properties of interest.
+2	BACKGROUND	Various sparsifying algorithms have been proposed in different contexts.
+3	OBJECTIVE	We contribute the first systematic conceptual and experimental comparison of \textit{edge sparsification} methods on a diverse set of network properties.
+4	RESULTS	It is shown that they can be understood as methods for rating edges by importance and then filtering globally by these scores.
+5	OBJECTIVE	In addition, we propose a new sparsification method (\textit{Local Degree}) which preserves edges leading to local hub nodes.
+6	METHODS	All methods are evaluated on a set of 100 Facebook social networks with respect to network properties including diameter, connected components, community structure, and multiple node centrality measures.
+7	RESULTS	Experiments with our implementations of the sparsification methods (using the open-source network analysis tool suite NetworKit) show that many network properties can be preserved down to about 20\% of the original set of edges.
+8	RESULTS	Furthermore, the experimental results allow us to differentiate the behavior of different methods and show which method is suitable with respect to which property.
+9	CONCLUSIONS	Our Local Degree method is fast enough for large-scale networks and performs well across a wider range of properties than previously proposed methods.
+1	OBJECTIVE	With the quick development of online social media such as twitter or sina weibo in china, many users usually track hot topics to satisfy their desired information need.
+2	BACKGROUND	For a hot topic, new opinions or ideas will be continuously produced in the form of online data stream.
+3	BACKGROUND	In this scenario, how to effectively filter and display information for a certain topic dynamically, will be a critical problem.
+4	BACKGROUND	We call the problem as Topic-focused Dynamic Information Filtering (denoted as TDIF for short) in social media.
+5	OBJECTIVE	In this paper, we start open discussions on such application problems.
+6	METHODS	We first analyze the properties of the TDIF problem, which usually contains several typical requirements: relevance, diversity, recency and confidence.
+7	METHODS	Recency means that users want to follow the recent opinions or news.
+8	METHODS	Additionally, the confidence of information must be taken into consideration.
+9	METHODS	How to balance these factors properly in online data stream is very important and challenging.
+10	METHODS	We propose a dynamic preservation strategy on the basis of an existing feature-based utility function, to solve the TDIF problem.
+11	METHODS	Additionally, we propose new dynamic diversity measures, to get a more reasonable evaluation for such application problems.
+12	RESULTS	Extensive exploratory experiments have been conducted on TREC public twitter dataset, and the experimental results validate the effectiveness of our approach.
+1	BACKGROUND	The spread of false rumours during emergencies can jeopardise the well-being of citizens as they are monitoring the stream of news from social media to stay abreast of the latest updates.
+2	OBJECTIVE	In this paper, we describe the methodology we have developed within the PHEME project for the collection and sampling of conversational threads, as well as the tool we have developed to facilitate the annotation of these threads so as to identify rumourous ones.
+3	OBJECTIVE	We describe the annotation task conducted on threads collected during the 2014 Ferguson unrest and we present and analyse our findings.
+4	RESULTS	Our results show that we can collect effectively social media rumours and identify multiple rumours associated with a range of stories that would have been hard to identify by relying on existing techniques that need manual input of rumour-specific keywords.
+1	BACKGROUND	Service-oriented Mobile Social Network in Proximity (MSNP) lets participants establish new social interactions with strangers in public proximity using heterogeneous platforms and devices.
+2	BACKGROUND	Such characteristic faces challenges in discovery latency and trustworthiness.
+3	BACKGROUND	In a public service-oriented MSNP environment, which consists of a large number of participants, a content requester who searches for a particular service provided by other MSNP participants will need to retrieve and process a large number of Service Description Metadata (SDM) files, associated semantic metadata files and identifying the trustworthiness of the content providers.
+4	BACKGROUND	Performing such tasks on a resource constraint mobile device can be time consuming, and the overall discovery performance will be affected and will result in high latency.
+5	OBJECTIVE	This paper analyses the service discovery models of MSNP and presents corresponding solutions to improve the service discovery performance of MSNP.
+6	METHODS	We firstly present and analyse the basic service discovery models of service-oriented MSNP.
+7	METHODS	To follow up, we apply a context-aware user preference prediction scheme to enhance the speed of the semantic service discovery process.
+8	METHODS	Later, we address the trustworthiness issue in MSNP and propose a scheme to reduce the latency of the trustworthy service discovery for MSNP.
+9	METHODS	The proposed scheme has been tested and evaluated on MSNP application prototype operating on real mobile devices and MSNP simulation environments.
