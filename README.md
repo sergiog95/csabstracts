@@ -18,3 +18,5 @@ The following table details composition of the dataset, with respective numbers 
 The dataset is split in three files (train.txt, validation.txt and test.txt).
 
 This dataset was developed in the context of my Master Thesis in Engineering and Management of Information Systems.
+
+Each entry in the file is one abstracts and each column is separated by a tab. The first column is the position of the sentence of the abstracts, the second column is the label/category of the sentence of the abstracts, and the third column is the text itself of the abstract sentence.
