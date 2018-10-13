@@ -17,6 +17,6 @@ All the abstracts are from the Computer Science field (hence the name CS Abstrac
 
 The dataset is split in three files (train.txt, validation.txt and test.txt).
 
-Each entry in the file corresponde to one entry in the dataset and each column is separated by a tab. The first column is the position of the sentence of the abstracts, the second column is the label/category of the sentence of the abstracts, and the third column is the text itself of the abstract sentence.
+Each entry in the file corresponds to one entry in the dataset and each column is separated by a tab. The first column is the position of the sentence of the abstracts, the second column is the label/category of the sentence of the abstracts, and the third column is the text itself of the abstract sentence.
 
 The dataset was developed in the context of my Master's Thesis in Engineering and Management of Information Systems.
