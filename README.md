@@ -1,7 +1,7 @@
 # CS Abstracts Dataset
 Dataset of scientific abstracts for the purpose of sentence classification. The abstracts are from the Computer Science, 
 
-The dataset is composed by a total of 654 abstracts, which were collected from the arXiv platform. Then, using crowdsourcing and collective inteligence, the data was annotated, where the sentences where categorized in the following classes:
+The dataset is composed by a total of 654 abstracts, which were collected from the arXiv platform. Then, using crowdsourcing and collective inteligence, the data was annotated, where the sentences were categorized in the following classes:
 - Background
 - Objective
 - Methods
