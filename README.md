@@ -22,7 +22,7 @@ Each entry in the file corresponds to one entry in the dataset and each column i
 The dataset was developed in the context of my Master's Thesis in Engineering and Management of Information Systems.
 
 
-**Citation Request:
+**Citation Request** 
 
 This dataset is made freely available for research purposes. Please include this citation if you plan to use this database:
 
